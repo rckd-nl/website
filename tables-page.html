@@ -4,44 +4,99 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>National League Archive — Standings</title>
-<!-- Same styles/components as widget; inline here since this sits in its own host -->
+
 <style>
+  /* ---- Design tokens ---- */
   :root{
-    --bg-odd:#fafafa; --bg-head:#e9e9e9; --bg-cap:#000; --cap-fg:#fff;
-    --gold:gold; --green:#e7f7e9; --blue:#e8f0ff; --pink:#ffe0e6;
+    --bg-odd:#f6f6f6;
+    --bg-even:#ffffff;
+    --bg-head:#000000;        /* header row background */
+    --head-fg:#ffffff;        /* header text */
+    --cap-bg:#9e0000;         /* caption background */
+    --cap-fg:#ffffff;
+    --gold:gold; --green:#e7f7e9; --blue:#e8f0ff; --pink:#ffe0e6; --grey:#e6e6e6;
     --gd-pos:#0a7d2a; --gd-zero:#555; --gd-neg:#b00020;
     --ring:#d0d7de; --ring-dark:#30363d;
+    --text:#111;
   }
-  .wrap{ max-width:1200px; margin:0 auto; padding:12px 8px; }
+
+  /* ---- Layout ---- */
+  .wrap{ max-width:1200px; margin:0 auto; padding:12px 8px; color:var(--text); }
   .controls{ display:flex; gap:.75rem; align-items:center; margin:.5rem 0 .75rem; flex-wrap:wrap; }
   .controls label{ font-weight:600; }
   .controls select{ padding:6px 10px; border:1px solid var(--ring); border-radius:8px; background:#fff; }
+
+  /* ---- Table ---- */
   .table-wrap{ max-width:100%; overflow-x:auto; -webkit-overflow-scrolling:touch; border-radius:10px; box-shadow:0 1px 0 rgba(0,0,0,.05); }
   table{ width:100%; border-collapse:collapse; font-variant-numeric:tabular-nums; }
-  caption{ color:var(--cap-fg); background:var(--bg-cap); text-align:center; font-weight:700; padding:10px; caption-side:top; font-size:1.1rem; letter-spacing:.2px; }
-  thead th{ position:sticky; top:0; z-index:1; background:var(--bg-head); text-transform:uppercase; font-size:.8rem; letter-spacing:.4px; }
+  caption{ color:var(--cap-fg); background:var(--cap-bg); text-align:center; font-weight:700; padding:10px; caption-side:top; font-size:1.1rem; letter-spacing:.2px; }
+  thead th{ position:sticky; top:0; z-index:1; background:var(--bg-head); color:var(--head-fg); text-transform:uppercase; font-size:.8rem; letter-spacing:.4px; }
   th,td{ padding:8px 10px; border:none; vertical-align:middle; text-align:center; white-space:nowrap; }
   th:nth-child(2), td:nth-child(2){ text-align:left; white-space:normal; }
   th:nth-child(n+3), td:nth-child(n+3){ text-align:right; }
-  tbody tr:nth-child(odd):not(.champion):not(.relegated):not(.promoted):not(.playoff){ background:var(--bg-odd); }
-  tbody tr:hover{ background:rgba(0,0,0,.03); }
-  .champion{ background:var(--gold); } .promoted{ background:var(--green); } .playoff{ background:var(--blue); } .relegated{ background:var(--pink); }
-  td.gd-pos{ color:var(--gd-pos); font-weight:600; } td.gd-zero{ color:var(--gd-zero); } td.gd-neg{ color:var(--gd-neg); font-weight:600; }
-  td:last-child{ font-weight:700; }
+
+  /* Zebra for unclassed rows (light mode) */
+  tbody tr:not(.champion):not(.relegated):not(.promoted):not(.playoff):not(.expunged):nth-child(odd){ background:var(--bg-odd); }
+  tbody tr:not(.champion):not(.relegated):not(.promoted):not(.playoff):not(.expunged):nth-child(even){ background:var(--bg-even); }
+
+  /* Lock hover (NO change on hover for any row) */
+  tbody tr:hover{ background:inherit !important; color:inherit !important; }
+
+  /* Special rows */
+  .champion{  background:var(--gold); }
+  .promoted{  background:var(--green); }
+  .playoff{   background:var(--blue); }
+  .relegated{ background:var(--pink); }
+  .expunged{  background:var(--grey); color:#666; }
+
+  /* GD colours (never bold) */
+  td.gd-pos{ color:var(--gd-pos); font-weight:400; }
+  td.gd-zero{ color:var(--gd-zero); font-weight:400; }
+  td.gd-neg{ color:var(--gd-neg); font-weight:400; }
+
+  /* Only Pos, Pts, PPG are bold (JS adds .strongcol) */
+  th.strongcol, td.strongcol{ font-weight:700; }
+
+  /* Legend (rebuilt per table so it only shows present statuses) */
   .legend{ font-size:.9rem; color:#555; margin-top:.5rem; }
   .legend .swatch{ display:inline-block; width:.9em; height:.9em; border-radius:3px; margin:0 .35rem -.12rem .35rem; }
-  .legend .gold{ background:var(--gold); } .legend .green{ background:var(--green); } .legend .blue{ background:var(--blue); } .legend .pink{ background:var(--pink); }
-  .error{ display:none; background:#ffe9ec; color:#b00020; border:1px solid #f0b9c2; padding:8px 10px; border-radius:8px; margin:.5rem 0; font-weight:600; white-space:pre-wrap; }
+  .legend .gold{ background:var(--gold); } .legend .green{ background:var(--green); } .legend .blue{ background:var(--blue); } .legend .pink{ background:var(--pink); } .legend .grey{ background:#bbb; }
+
+  /* Pills */
   .pillbar{ display:none; gap:.4rem; flex-wrap:wrap; margin:.25rem 0 .2rem; }
-  .pillbar button{ border:1px solid var(--ring); background:#fff; border-radius:999px; padding:6px 10px; cursor:pointer; }
-  .pillbar button[aria-pressed="true"]{ background:#111; color:#fff; border-color:#111; }
+  .pillbar button{
+    border:1px solid var(--ring); background:#fff; border-radius:999px; padding:6px 10px; cursor:pointer; color:inherit;
+  }
+  /* Active pill colour depends on era (set via data-era on .pillbar) */
+  .pillbar[data-era="pre"]    button[aria-pressed="true"]{ background:#111;    color:#fff; border-color:#111; }
+  .pillbar[data-era="modern"] button[aria-pressed="true"]{ background:#9e0000; color:#fff; border-color:#9e0000; }
+
+  /* Errors */
+  .error{ display:none; background:#ffe9ec; color:#b00020; border:1px solid #f0b9c2; padding:8px 10px; border-radius:8px; margin:.5rem 0; font-weight:600; white-space:pre-wrap; }
+
+  /* Dark mode */
   @media (prefers-color-scheme: dark){
-    :root{ --bg-odd:#141414; --bg-head:#222; --bg-cap:#111; --cap-fg:#fff; }
-    .relegated{ background:#44222a; } .promoted{ background:#1c2a1e; } .playoff{ background:#1a2234; }
+    :root{ --bg-odd:#000000; --bg-even:#000000; --text:#eee; }
+    html, body, table, caption, th, td { color:#eee; }
     .controls select{ background:transparent; color:inherit; border-color:var(--ring-dark); }
     .legend{ color:#ccc; }
+
+    /* Unclassed rows: pure black with white text; locked on hover */
+    tbody tr:not(.champion):not(.relegated):not(.promoted):not(.playoff):not(.expunged){
+      background:#000 !important; color:#fff !important;
+    }
+    tbody tr:not(.champion):not(.relegated):not(.promoted):not(.playoff):not(.expunged):hover{
+      background:#000 !important; color:#fff !important;
+    }
+
+    /* Special rows retain their tones */
+    .relegated{ background:#44222a; }
+    .promoted{  background:#1c2a1e; }
+    .playoff{   background:#1a2234; }
+    .expunged{  background:#2a2a2a; color:#bbb; }
+
+    /* Pills in dark mode (base) */
     .pillbar button{ background:transparent; color:inherit; border-color:var(--ring-dark); }
-    .pillbar button[aria-pressed="true"]{ background:#2a2a2a; border-color:#555; color:#fff; }
   }
 </style>
 </head>
@@ -51,8 +106,11 @@
     <label for="season-select">Season:</label>
     <select id="season-select" aria-label="Select season"></select>
   </div>
+
   <div id="error" class="error" role="alert"></div>
+
   <div id="division-pills" class="pillbar" aria-label="Divisions"></div>
+
   <div class="table-wrap">
     <table id="standings" aria-describedby="legend">
       <caption id="table-caption">Alliance / Conference / National League — Standings</caption>
@@ -68,151 +126,10 @@
       <tbody></tbody>
     </table>
   </div>
-  <p class="legend" id="legend">
-    <strong>Legend:</strong>
-    <span class="swatch gold"></span>Champions,
-    <span class="swatch green"></span>Promoted,
-    <span class="swatch blue"></span>Play-off,
-    <span class="swatch pink"></span>Relegated.
-    GD colors: <span style="color:#0a7d2a;font-weight:600;">positive</span> /
-    <span style="color:#b00020;font-weight:600;">negative</span>.
-  </p>
 
-  <!-- set your JSON source here -->
-  <script>
-    window.LEAGUE_JSON_SRC = "https://raw.githubusercontent.com/rckd-nl/website/main/league-tables.json";
-  </script>
-
-  <script>
-  (function(){
-    const els = {
-      seasonSel: document.getElementById('season-select'),
-      pills: document.getElementById('division-pills'),
-      tbody: document.querySelector('#standings tbody'),
-      caption: document.getElementById('table-caption'),
-      err: document.getElementById('error')
-    };
-    const state = { seasons:[], byKey:{}, current:{ season:null, division:null } };
-
-    const showErr = (m,d) => { els.err.style.display='block'; els.err.textContent=d?(m+"\n\n"+d):m; console.error(m,d||''); };
-    const clearErr = () => { els.err.style.display='none'; els.err.textContent=''; };
-    const startYear = s => { const m=/^(\d{4})/.exec(String(s)||''); return m?+m[1]:0; };
-    const classForGD = gd => gd>0?'gd-pos': gd<0?'gd-neg':'gd-zero';
-    const ORDER = { National:0, Premier:0, Alliance:0, Conference:0, North:1, South:2 };
-
-    function rewriteURL(url){
-      url = url.replace(/github\.com\/([^/]+)\/([^/]+)\/(?:blob|blame)\/([^/]+)\/(.+)$/i,'https://raw.githubusercontent.com/$1/$2/$3/$4');
-      const m = url.match(/drive\.google\.com\/file\/d\/([^/]+)/i);
-      if (m) url = `https://drive.google.com/uc?export=download&id=${m[1]}`;
-      return url;
-    }
-    function normalize(raw){
-      if (!raw) return [];
-      if (Array.isArray(raw)) return raw.filter(s=>s?.season && s?.divisions);
-      if (Array.isArray(raw.seasons)) return raw.seasons.filter(s=>s?.season && s?.divisions);
-      const out=[];
-      Object.keys(raw||{}).forEach(k=>{
-        const v=raw[k]; if (!v || typeof v!=='object') return;
-        if (v.divisions){ out.push({ season:k, divisions:v.divisions }); return; }
-        if (Array.isArray(v.groups)){
-          const divisions={}; v.groups.forEach(g=>{
-            const name=g.name||g.title||'Division';
-            divisions[name]={ title:g.title||(name+' '+k), rows:g.rows||[] };
-          });
-          out.push({ season:k, divisions }); return;
-        }
-        if (Array.isArray(v.rows)){
-          out.push({ season:k, divisions:{ National:{ title:v.title||('National '+k), rows:v.rows } } });
-        }
-      });
-      return out;
-    }
-    function buildIndex(items){
-      const seasons = items.slice().sort((a,b)=> startYear(a.season)-startYear(b.season));
-      state.seasons = seasons; state.byKey = Object.fromEntries(seasons.map(s=>[s.season,s]));
-    }
-    function populateSeasons(){
-      const sel=els.seasonSel; sel.innerHTML='';
-      if (!state.seasons.length){ const o=document.createElement('option'); o.textContent='— no seasons —'; o.disabled=true; o.selected=true; sel.appendChild(o); return; }
-      state.seasons.forEach(s=>{ const o=document.createElement('option'); o.value=s.season; o.textContent=s.season; sel.appendChild(o); });
-    }
-    function renderPills(divisions){
-      const names=Object.keys(divisions||{}); els.pills.innerHTML='';
-      if (names.length<=1){ els.pills.style.display='none'; return; }
-      els.pills.style.display='flex';
-      names.slice().sort((a,b)=>(ORDER[a]??3)-(ORDER[b]??3)||a.localeCompare(b)).forEach(n=>{
-        const b=document.createElement('button'); b.type='button'; b.textContent=n;
-        b.setAttribute('aria-pressed', n===state.current.division?'true':'false');
-        b.addEventListener('click',()=> renderTable(state.current.season,n));
-        els.pills.appendChild(b);
-      });
-    }
-    function renderTable(seasonKey, preferredDivision){
-      const season = state.byKey[seasonKey]; if (!season) return;
-      const names=Object.keys(season.divisions||{});
-      const pickFirst=()=> names.includes('National') ? 'National' : names.includes('North') ? 'North' : names.includes('South') ? 'South' : names[0];
-      const chosen = preferredDivision || state.current.division || pickFirst();
-      const div = season.divisions[chosen] || season.divisions[pickFirst()];
-      state.current.season=seasonKey; state.current.division=chosen;
-
-      renderPills(season.divisions);
-      [...els.pills.querySelectorAll('button')].forEach(b=> b.setAttribute('aria-pressed', b.textContent===chosen?'true':'false'));
-      els.caption.textContent = (div && div.title) || season.title || (`${seasonKey} — ${chosen}`);
-
-      els.tbody.innerHTML='';
-      const rows=(div&&div.rows||[]).slice().sort((a,b)=>(a.pos||0)-(b.pos||0));
-      rows.forEach(r=>{
-        const tr=document.createElement('tr'); (r.classes||[]).forEach(c=> tr.classList.add(c));
-        const cells=[r.pos,r.team,r.P,r.W,r.D,r.L,r.GF,r.GA,{gd:r.GD},r.Pts];
-        cells.forEach((val,i)=>{
-          const td=document.createElement('td');
-          if (i===8){
-            const gd=Number((val&&val.gd)!=null?val.gd:val);
-            if (isFinite(gd)){ td.textContent = gd>0?('+'+gd):String(gd); td.classList.add(gd>0?'gd-pos':gd<0?'gd-neg':'gd-zero'); }
-            else { td.textContent=''; td.classList.add('gd-zero'); }
-          } else { td.textContent = (val!=null ? val : ''); }
-          tr.appendChild(td);
-        });
-        els.tbody.appendChild(tr);
-      });
-    }
-
-    async function boot(){
-      clearErr();
-      const loading=document.createElement('option'); loading.textContent='Loading…'; loading.disabled=true; loading.selected=true; els.seasonSel.appendChild(loading);
-      let url = rewriteURL(window.LEAGUE_JSON_SRC || '');
-      if (!url) return showErr('No JSON URL set','Set window.LEAGUE_JSON_SRC');
-
-      try{
-        const res=await fetch(url + (url.includes('?')?'&':'?') + 'v=' + Date.now(), { cache:'no-store', credentials:'omit' });
-        if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
-        const text=await res.text();
-        let raw=null;
-        try{ raw=JSON.parse(text); }
-        catch(parseErr){
-          const s=text.indexOf('{'), e=text.lastIndexOf('}');
-          if (s>=0 && e>s){ try{ raw=JSON.parse(text.slice(s,e+1)); } catch(e2){ return showErr('Fetched file was not valid JSON', parseErr.message); } }
-          else return showErr('Fetched file was not JSON (likely an HTML page).','Use GitHub RAW or Drive direct link.');
-        }
-
-        const items=normalize(raw);
-        if (!items.length){
-          const keys = raw && typeof raw==='object' ? Object.keys(raw).slice(0,8).join(', ') : 'none';
-          return showErr('No seasons found after normalizing the JSON.','Top-level keys: '+keys);
-        }
-        buildIndex(items);
-        populateSeasons();
-
-        // Always default to earliest
-        const initial=state.seasons[0].season;
-        els.seasonSel.value=initial;
-        renderTable(initial,null);
-        els.seasonSel.addEventListener('change',()=>renderTable(els.seasonSel.value,null));
-      }catch(err){ showErr('Network/CORS error while fetching JSON', err.message); }
-    }
-    boot();
-  })();
-  </script>
+  <p class="legend" id="legend"><strong>Legend:</strong></p>
 </div>
-</body>
-</html>
+
+<script>
+/* Point to your RAW JSON on GitHub */
+const JSON
