@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>National League Archive — Standings</title>
+<style>
+  :root{
+    --bg-odd:#fafafa; --bg-head:#e9e9e9; --bg-cap:#000; --cap-fg:#fff;
+    --gold:gold; --green:#e7f7e9; --blue:#e8f0ff; --pink:#ffe0e6;
+    --gd-pos:#0a7d2a; --gd-zero:#555; --gd-neg:#b00020;
+    --ring:#d0d7de; --ring-dark:#30363d;
+  }
+  .wrap{ max-width:1200px; margin:0 auto; padding:12px 8px; }
+  .controls{ display:flex; gap:.75rem; align-items:center; margin:.5rem 0 .75rem; flex-wrap:wrap; }
+  .controls label{ font-weight:600; }
+  .controls select{ padding:6px 10px; border:1px solid var(--ring); border-radius:8px; background:#fff; }
+  .status{ opacity:.85; }
+
+  .table-wrap{ max-width:100%; overflow-x:auto; -webkit-overflow-scrolling:touch; border-radius:10px; box-shadow:0 1px 0 rgba(0,0,0,.05); }
+  table{ width:100%; border-collapse:collapse; font-variant-numeric:tabular-nums; }
+  caption{ color:var(--cap-fg); background:var(--bg-cap); text-align:center; font-weight:700; padding:10px; caption-side:top; font-size:1.1rem; letter-spacing:.2px; }
+  thead th{ position:sticky; top:0; z-index:1; background:var(--bg-head); text-transform:uppercase; font-size:.8rem; letter-spacing:.4px; }
+  th,td{ padding:8px 10px; border:none; vertical-align:middle; text-align:center; white-space:nowrap; }
+  th:nth-child(2), td:nth-child(2){ text-align:left; white-space:normal; }
+  th:nth-child(n+3), td:nth-child(n+3){ text-align:right; }
+  tbody tr:nth-child(odd):not(.champion):not(.relegated):not(.promoted):not(.playoff){ background:var(--bg-odd); }
+  tbody tr:hover{ background:rgba(0,0,0,.03); }
+  .champion{ background:var(--gold); } .promoted{ background:var(--green); } .playoff{ background:var(--blue); } .relegated{ background:var(--pink); }
+  td.gd-pos{ color:var(--gd-pos); font-weight:600; } td.gd-zero{ color:var(--gd-zero); } td.gd-neg{ color:var(--gd-neg); font-weight:600; }
+  td:last-child{ font-weight:700; }
+
+  .legend{ font-size:.9rem; color:#555; margin-top:.5rem; }
+  .legend .swatch{ display:inline-block; width:.9em; height:.9em; border-radius:3px; margin:0 .35rem -.12rem .35rem; }
+  .legend .gold{ background:var(--gold); } .legend .green{ background:var(--green); } .legend .blue{ background:var(--blue); } .legend .pink{ background:var(--pink); }
+
+  .error{ display:none; background:#ffe9ec; color:#b00020; border:1px solid #f0b9c2; padding:8px 10px; border-radius:8px; margin:.5rem 0; font-weight:600; white-space:pre-wrap; }
+
+  .pillbar{ display:none; gap:.4rem; flex-wrap:wrap; margin:.25rem 0 .2rem; }
+  .pillbar button{ border:1px solid var(--ring); background:#fff; border-radius:999px; padding:6px 10px; cursor:pointer; }
+  .pillbar button[aria-pressed="true"]{ background:#111; color:#fff; border-color:#111; }
+
+  @media (prefers-color-scheme: dark){
+    :root{ --bg-odd:#141414; --bg-head:#222; --bg-cap:#111; --cap-fg:#fff; }
+    .relegated{ background:#44222a; } .promoted{ background:#1c2a1e; } .playoff{ background:#1a2234; }
+    .controls select{ background:transparent; color:inherit; border-color:var(--ring-dark); }
+    .legend{ color:#ccc; }
+    .pillbar button{ background:transparent; color:inherit; border-color:var(--ring-dark); }
+    .pillbar button[aria-pressed="true"]{ background:#2a2a2a; border-color:#555; color:#fff; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="controls">
+    <label for="season-select">Season:</label>
+    <select id="season-select" aria-label="Select season"></select>
+
+    <label for="division-select" id="division-label" style="display:none;">Division:</label>
+    <select id="division-select" aria-label="Select division" style="display:none;"></select>
+
+    <span id="status" class="status"></span>
+  </div>
+
+  <div id="error" class="error" role="alert"></div>
+
+  <div id="division-pills" class="pillbar" aria-label="Divisions"></div>
+
+  <div class="table-wrap">
+    <table id="standings" aria-describedby="legend">
+      <caption id="table-caption">Alliance / Conference / National League — Standings</caption>
+      <thead>
+        <tr>
+          <th scope="col">Pos</th>
+          <th scope="col">Team</th>
+          <th scope="col"><abbr title="Played">P</abbr></th>
+          <th scope="col"><abbr title="Wins">W</abbr></th>
+          <th scope="col"><abbr title="Draws">D</abbr></th>
+          <th scope="col"><abbr title="Losses">L</abbr></th>
+          <th scope="col"><abbr title="Goals For">GF</abbr></th>
+          <th scope="col"><abbr title="Goals Against">GA</abbr></th>
+          <th scope="col"><abbr title="Goal Difference">GD</abbr></th>
+          <th scope="col"><abbr title="Points">Pts</abbr></th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <p id="legend" class="legend">
+    <strong>Legend:</strong>
+    <span class="swatch gold"></span><span class="gold"></span>Champions,
+    <span class="swatch green"></span><span class="green"></span>Promoted,
+    <span class="swatch blue"></span><span class="blue"></span>Play-off,
+    <span class="swatch pink"></span><span class="pink"></span>Relegated.
+    GD colors: <span style="color:#0a7d2a;font-weight:600;">positive</span> /
+    <span style="color:#b00020;font-weight:600;">negative</span>.
+  </p>
+
+  <!-- Set this to the RAW GitHub URL (or jsDelivr). Cache-bust with ?v=DATE if needed. -->
+  <script id="seasons-loader"
+    data-json="https://raw.githubusercontent.com/rckd-nl/website/main/league-tables.json">
+  </script>
+
+  <!-- If CSP blocks cross-origin fetch, paste your JSON in here and leave data-json empty.
+       Accepts either:
+       { "seasons":[{ "season":"YYYY-YY","divisions":{...} }, ...] }
+       OR { "YYYY-YY": { rows } } / { "YYYY-YY": { groups:[{name,rows}...] } } -->
+  <script id="seasons-json" type="application/json"></script>
+
+  <script>
+  (function(){
+    const els = {
+      seasonSel: document.getElementById('season-select'),
+      divisionSel: document.getElementById('division-select'),
+      divisionLabel: document.getElementById('division-label'),
+      pills: document.getElementById('division-pills'),
+      tbody: document.querySelector('#standings tbody'),
+      caption: document.getElementById('table-caption'),
+      error: document.getElementById('error'),
+      status: document.getElementById('status'),
+      jsonScript: document.getElementById('seasons-json'),
+      loaderTag: document.getElementById('seasons-loader'),
+    };
+
+    const state = { seasons:[], byKey:{}, current:{ season:null, division:null } };
+
+    const showError = (msg, detail) => { els.error.style.display='block'; els.error.textContent = detail ? (msg + "\\n\\n" + detail) : msg; console.error(msg, detail||''); };
+    const clearError = () => { els.error.style.display='none'; els.error.textContent=''; };
+
+    const startYear = s => { const m=/^(\d{4})/.exec(String(s)||''); return m?+m[1]:0; };
+    const classForGD = gd => gd>0?'gd-pos': gd<0?'gd-neg':'gd-zero';
+
+    function normalize(raw){
+      // Accept:
+      // 1) { seasons: [ { season, divisions } ] }  <-- your league-tables.json
+      // 2) [ { season, divisions } ]
+      // 3) { "YYYY-YY": { rows|groups|divisions|title } }
+      if (!raw) return [];
+      if (Array.isArray(raw)) return raw.filter(s=>s?.season && s?.divisions);
+      if (Array.isArray(raw.seasons)) return raw.seasons.filter(s=>s?.season && s?.divisions);
+
+      // keyed by season
+      const out=[];
+      Object.keys(raw||{}).forEach(key=>{
+        const v = raw[key]; if (!v || typeof v!=='object') return;
+        if (v.divisions) { out.push({ season:key, divisions:v.divisions }); return; }
+        if (Array.isArray(v.groups)){
+          const divisions={};
+          v.groups.forEach(g=>{
+            const name = g.name || g.title || 'Division';
+            divisions[name] = { title: g.title || (name + ' ' + key), rows: g.rows || [] };
+          });
+          out.push({ season:key, divisions });
+          return;
+        }
+        if (Array.isArray(v.rows)){
+          out.push({ season:key, divisions:{ National:{ title:v.title || ('National ' + key), rows:v.rows } } });
+        }
+      });
+      return out;
+    }
+
+    function buildIndex(items){
+      const seasons = items.slice().sort((a,b)=> startYear(a.season)-startYear(b.season));
+      const byKey = {}; seasons.forEach(s=> byKey[s.season]=s);
+      state.seasons = seasons; state.byKey = byKey;
+    }
+
+    function populateSeasonDropdown(){
+      const sel=els.seasonSel; sel.innerHTML='';
+      if (!state.seasons.length){ const o=document.createElement('option'); o.textContent='— no seasons —'; o.disabled=true; o.selected=true; sel.appendChild(o); return; }
+      state.seasons.forEach(s=>{ const o=document.createElement('option'); o.value=s.season; o.textContent=s.season; sel.appendChild(o); });
+    }
+
+    function renderDivisionChooser(divisions){
+      const names = Object.keys(divisions||{});
+      const multi = names.length>1;
+      els.divisionSel.style.display = multi ? '' : 'none';
+      els.divisionLabel.style.display = multi ? '' : 'none';
+
+      els.divisionSel.innerHTML='';
+      names.forEach(n=>{ const o=document.createElement('option'); o.value=n; o.textContent=n; els.divisionSel.appendChild(o); });
+
+      els.pills.innerHTML='';
+      if (multi){
+        els.pills.style.display='flex';
+        names.forEach(n=>{
+          const b=document.createElement('button'); b.type='button'; b.textContent=n;
+          b.setAttribute('aria-pressed', n===state.current.division? 'true':'false');
+          b.addEventListener('click', ()=>{ els.divisionSel.value=n; onDivisionChange(); });
+          els.pills.appendChild(b);
+        });
+      } else {
+        els.pills.style.display='none';
+      }
+    }
+
+    function renderTable(seasonKey, divisionName){
+      const season = state.byKey[seasonKey]; if (!season) return;
+      const names = Object.keys(season.divisions||{});
+      const chosen = divisionName || (names.includes('National')? 'National' : names[0]);
+      const div = season.divisions[chosen] || season.divisions[names[0]];
+
+      state.current.season = seasonKey; state.current.division = chosen;
+
+      renderDivisionChooser(season.divisions);
+      els.divisionSel.value = chosen;
+      [...els.pills.querySelectorAll('button')].forEach(b=> b.setAttribute('aria-pressed', b.textContent===chosen?'true':'false'));
+
+      els.caption.textContent = (div && div.title) || season.title || (`${seasonKey} — ${chosen}`);
+
+      els.tbody.innerHTML='';
+      const rows = (div && div.rows || []).slice().sort((a,b)=> (a.pos||0)-(b.pos||0));
+      rows.forEach(r=>{
+        const tr = document.createElement('tr'); (r.classes||[]).forEach(c=> tr.classList.add(c));
+        const cells = [ r.pos, r.team, r.P, r.W, r.D, r.L, r.GF, r.GA, {gd:r.GD}, r.Pts ];
+        cells.forEach((val,i)=>{
+          const td=document.createElement('td');
+          if (i===8){
+            const gd = Number((val && val.gd)!=null ? val.gd : val);
+            if (isFinite(gd)) { td.textContent = gd>0? ('+'+gd) : String(gd); td.classList.add(classForGD(gd)); }
+            else { td.textContent=''; td.classList.add('gd-zero'); }
+          } else {
+            td.textContent = (val!=null ? val : '');
+          }
+          tr.appendChild(td);
+        });
+        els.tbody.appendChild(tr);
+      });
+
+      try{ const u=new URL(window.location); u.searchParams.set('season', seasonKey); u.searchParams.set('division', chosen); history.replaceState({},'',u); }catch{}
+      els.status.textContent = `Loaded ${rows.length} rows • ${names.length>1? names.join(' / ') : names[0]}`;
+    }
+
+    function onSeasonChange(){ renderTable(els.seasonSel.value, null); }
+    function onDivisionChange(){ renderTable(state.current.season, els.divisionSel.value); }
+
+    async function load(){
+      clearError();
+
+      // 1) Inline JSON (CSP-proof fallback)
+      const inline = (els.jsonScript && els.jsonScript.textContent.trim()) ? els.jsonScript.textContent.trim() : '';
+      let raw = null;
+
+      if (inline){
+        try { raw = JSON.parse(inline); }
+        catch(e){ showError('Inline JSON could not be parsed', e.message); }
+      } else {
+        // 2) External URL
+        let url = (els.loaderTag && els.loaderTag.getAttribute('data-json')) || '';
+        if (!url){ showError('No data source found','Set data-json to your raw GitHub URL, or paste JSON inline.'); return; }
+
+        // If someone pasted a GitHub blame/blob URL, rewrite to raw.
+        url = url.replace(/github\.com\/([^/]+)\/([^/]+)\/(?:blob|blame)\/([^/]+)\/(.+)$/i, 'https://raw.githubusercontent.com/$1/$2/$3/$4');
+
+        try{
+          const res = await fetch(url + (url.includes('?')?'&':'?') + 'v=' + Date.now(), { cache:'no-store', credentials:'omit' });
+          if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+          const text = await res.text();
+          try { raw = JSON.parse(text); }
+          catch(parseErr){
+            // Try brace-slice if content-type came back text/plain with extra noise
+            const s = text.indexOf('{'), e = text.lastIndexOf('}');
+            if (s>=0 && e>s){ try { raw = JSON.parse(text.slice(s,e+1)); } catch(e2){ showError('Fetched file was not valid JSON', parseErr.message); } }
+            else { showError('Fetched file was not JSON (likely an HTML page).', 'Use the RAW URL, not blob/blame.'); }
+          }
+        } catch(err){
+          showError('Network/CORS error while fetching JSON', err.message);
+        }
+      }
+
+      const seasons = normalize(raw);
+      if (!seasons.length){
+        const keys = raw && typeof raw==='object' ? Object.keys(raw).slice(0,8).join(', ') : 'none';
+        showError('No seasons found after normalizing the JSON.',
+                  'Top-level keys seen: ' + keys + '. Expected { "seasons":[...] } or an array of { season, divisions } or a seasons-keyed object.');
+        populateSeasonDropdown();
+        return;
+      }
+
+      // Build + render
+      const sortByStart = (a,b)=> startYear(a.season)-startYear(b.season);
+      seasons.sort(sortByStart);
+      seasons.forEach(s=> state.byKey[s.season]=s);
+      state.seasons = seasons;
+
+      populateSeasonDropdown();
+      const latest = state.seasons[state.seasons.length-1]?.season;
+      if (latest) renderTable(latest, null);
+
+      els.seasonSel.addEventListener('change', onSeasonChange);
+      els.divisionSel.addEventListener('change', onDivisionChange);
+      els.status.textContent = `Loaded ${state.seasons.length} seasons`;
+    }
+
+    // Seed a visible “Loading…” option so the select isn’t empty while JS runs
+    (function seed(){ const o=document.createElement('option'); o.textContent='Loading…'; o.disabled=true; o.selected=true; els.seasonSel.appendChild(o); })();
+    load();
+  })();
+  </script>
+
+  <noscript><div class="error">JavaScript is required to display the standings.</div></noscript>
+</div>
+</body>
+</html>
