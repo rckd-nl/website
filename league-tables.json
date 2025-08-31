@@ -1,7 +1,6 @@
 {
   "meta": {
     "relatedClubs": {
-      "AFC Hornchurch": ["Hornchurch"],
       "AFC Telford United": ["Telford United"],
       "AP Leamington": ["Leamington"],
       "Chester": ["Chester City"],
@@ -15248,7 +15247,7 @@
             },
             {
               "pos": 20,
-              "team": "AFC Hornchurch",
+              "team": "Hornchurch",
               "P": 42,
               "W": 11,
               "D": 11,
