@@ -132,4 +132,252 @@
 
 <script>
 /* Point to your RAW JSON on GitHub */
-const JSON
+const JSON_URL = "https://raw.githubusercontent.com/rckd-nl/website/main/league-tables.json";
+
+/* ---------- DOM ---------- */
+const els = {
+  seasonSel: document.getElementById('season-select'),
+  pills: document.getElementById('division-pills'),
+  tbody: document.querySelector('#standings tbody'),
+  caption: document.getElementById('table-caption'),
+  legend: document.getElementById('legend'),
+  err: document.getElementById('error')
+};
+const state = { seasons:[], byKey:{}, current:{ season:null, division:null } };
+
+/* ---------- Utils ---------- */
+const showErr = (m,d) => { els.err.style.display='block'; els.err.textContent=d?(m+"\n\n"+d):m; console.error(m,d||''); };
+const clearErr = () => { els.err.style.display='none'; els.err.textContent=''; };
+const startYear = s => { const m=/^(\d{4})/.exec(String(s)||''); return m?+m[1]:0; };
+const ORDER = { National:0, Alliance:0, Conference:0, Premier:0, North:1, South:2 };
+
+function classForGD(n){ return n>0?'gd-pos':(n<0?'gd-neg':'gd-zero'); }
+function parseNum(x){ return Number(String(x).replace(/[^\d.-]/g,'')); }
+
+/* ---------- Normalise your JSON ---------- */
+function normalize(raw){
+  if (!raw) return [];
+  if (Array.isArray(raw)) return raw.filter(s=>s?.season && s?.divisions);
+
+  if (Array.isArray(raw.seasons)) return raw.seasons.filter(s=>s?.season && s?.divisions);
+
+  const out=[];
+  Object.keys(raw||{}).forEach(k=>{
+    const v=raw[k]; if (!v || typeof v!=='object') return;
+
+    if (v.divisions){ out.push({ season:k, divisions:v.divisions }); return; }
+
+    if (Array.isArray(v.groups)){
+      const divisions={}; v.groups.forEach(g=>{
+        const name=g.name||g.title||'Division';
+        divisions[name]={ title:g.title||(name+' '+k), rows:g.rows||[] };
+      });
+      out.push({ season:k, divisions }); return;
+    }
+
+    if (Array.isArray(v.rows)){
+      out.push({ season:k, divisions:{ National:{ title:v.title||('National '+k), rows:v.rows } } });
+    }
+  });
+  return out;
+}
+
+function buildIndex(items){
+  const seasons = items.slice().sort((a,b)=> startYear(a.season)-startYear(b.season));
+  state.seasons = seasons;
+  state.byKey = Object.fromEntries(seasons.map(s=>[s.season,s]));
+}
+
+function populateSeasons(){
+  const sel=els.seasonSel; sel.innerHTML='';
+  if (!state.seasons.length){
+    const o=document.createElement('option'); o.textContent='— no seasons —'; o.disabled=true; o.selected=true; sel.appendChild(o); return;
+  }
+  state.seasons.forEach(s=>{ const o=document.createElement('option'); o.value=s.season; o.textContent=s.season; sel.appendChild(o); });
+}
+
+function renderPills(seasonKey, divisions){
+  const names=Object.keys(divisions||{});
+  els.pills.innerHTML='';
+  if (names.length<=1){ els.pills.style.display='none'; els.pills.removeAttribute('data-era'); return; }
+
+  els.pills.style.display='flex';
+  els.pills.setAttribute('data-era', startYear(seasonKey) >= 2004 ? 'modern':'pre');
+
+  names.slice().sort((a,b)=>(ORDER[a]??3)-(ORDER[b]??3)||a.localeCompare(b)).forEach(n=>{
+    const b=document.createElement('button'); b.type='button'; b.textContent=n;
+    b.setAttribute('aria-pressed', n===state.current.division?'true':'false');
+    b.addEventListener('click',()=> renderTable(state.current.season,n));
+    els.pills.appendChild(b);
+  });
+}
+
+/* Bold only Pos, Pts (+ PPG if present) */
+function markStrongColumns(){
+  const thead = document.querySelector('#standings thead tr');
+  const tbody = els.tbody;
+  if (!thead) return;
+  const headers = Array.from(thead.cells).map(th => th.textContent.trim().toLowerCase());
+  const strong = ['pos','pts','ppg'].map(n=>headers.indexOf(n)).filter(i=>i>-1);
+
+  Array.from(thead.cells).forEach(th=> th.classList.remove('strongcol'));
+  Array.from(tbody.rows).forEach(tr=> Array.from(tr.cells).forEach(td=> td.classList.remove('strongcol')));
+
+  strong.forEach(i=>{
+    if (thead.cells[i]) thead.cells[i].classList.add('strongcol');
+    Array.from(tbody.rows).forEach(tr=>{ if (tr.cells[i]) tr.cells[i].classList.add('strongcol'); });
+  });
+}
+
+/* Add/remove PPG for 2019–20 only */
+function handlePPG(seasonKey){
+  const thead = document.querySelector('#standings thead tr');
+  const tbody = els.tbody;
+  if (!thead || !tbody) return;
+
+  const wantPPG = /2019[-\u2013]?20/.test(seasonKey);
+
+  const headers = Array.from(thead.cells).map(th => th.textContent.trim().toLowerCase());
+  let idxPPG = headers.indexOf('ppg');
+  const idxP = headers.indexOf('p');
+  const idxPts = headers.indexOf('pts');
+
+  if (wantPPG){
+    if (idxPPG === -1){
+      const th = document.createElement('th'); th.innerHTML = '<abbr title="Points per game">PPG</abbr>';
+      thead.appendChild(th);
+      idxPPG = thead.cells.length - 1;
+    }
+    Array.from(tbody.rows).forEach(tr=>{
+      let cell = tr.cells[idxPPG];
+      if (!cell){ cell = document.createElement('td'); tr.appendChild(cell); }
+      cell.classList.add('ppg');
+      const P   = parseNum(tr.cells[idxP]?.textContent || '');
+      const Pts = parseNum(tr.cells[idxPts]?.textContent || '');
+      const val = (P>0 && isFinite(Pts/P)) ? (Pts/P).toFixed(2) : '';
+      cell.textContent = val;
+    });
+  } else if (idxPPG !== -1){
+    thead.deleteCell(idxPPG);
+    Array.from(tbody.rows).forEach(tr=>{ if (tr.cells[idxPPG]) tr.deleteCell(idxPPG); });
+  }
+}
+
+/* Legend: only show items present (single Expunged) */
+function rebuildLegend(){
+  const rows = Array.from(els.tbody.rows);
+  const has = {
+    champion : rows.some(r=> r.classList.contains('champion')),
+    promoted : rows.some(r=> r.classList.contains('promoted')),
+    playoff  : rows.some(r=> r.classList.contains('playoff')),
+    relegated: rows.some(r=> r.classList.contains('relegated')),
+    expunged : rows.some(r=> r.classList.contains('expunged')),
+  };
+  const parts=[];
+  if (has.champion)  parts.push('<span class="swatch gold"></span>Champions');
+  if (has.promoted)  parts.push('<span class="swatch green"></span>Promoted');
+  if (has.playoff)   parts.push('<span class="swatch blue"></span>Play-off');
+  if (has.relegated) parts.push('<span class="swatch pink"></span>Relegated');
+  if (has.expunged)  parts.push('<span class="swatch grey"></span>Expunged');
+  els.legend.innerHTML = '<strong>Legend:</strong> ' + (parts.join(', ') || '—');
+}
+
+/* Render a season/division */
+function renderTable(seasonKey, preferredDivision){
+  const season = state.byKey[seasonKey]; if (!season) return;
+
+  const names = Object.keys(season.divisions||{});
+  const pickFirst=()=> names.includes('National') ? 'National' : names.includes('North') ? 'North' : names.includes('South') ? 'South' : names[0];
+  const chosen = preferredDivision || state.current.division || pickFirst();
+  const div = season.divisions[chosen] || season.divisions[pickFirst()];
+
+  state.current.season=seasonKey; state.current.division=chosen;
+
+  renderPills(seasonKey, season.divisions);
+  [...els.pills.querySelectorAll('button')].forEach(b=> b.setAttribute('aria-pressed', b.textContent===chosen?'true':'false'));
+
+  els.caption.textContent = (div && div.title) || season.title || (`${seasonKey} — ${chosen}`);
+
+  els.tbody.innerHTML='';
+  const rows=(div&&div.rows||[]).slice().sort((a,b)=>{
+    const pa = (a.pos||0), pb = (b.pos||0);
+    if (pa===0 && pb!==0) return 1; if (pb===0 && pa!==0) return -1;
+    return pa - pb;
+  });
+
+  rows.forEach(r=>{
+    const tr=document.createElement('tr'); (r.classes||[]).forEach(c=> tr.classList.add(c));
+    const gdNum = Number(r.GD);
+    const cells=[r.pos,r.team,r.P,r.W,r.D,r.L,r.GF,r.GA,{gd:isFinite(gdNum)?gdNum:(Number(r.GF)-Number(r.GA))},r.Pts];
+    cells.forEach((val,i)=>{
+      const td=document.createElement('td');
+      if (i===8){
+        const n = Number((val && val.gd) != null ? val.gd : val);
+        if (isFinite(n)){ td.textContent = (n>0?('+'+n):String(n)); td.classList.add(classForGD(n)); }
+        else { td.textContent=''; td.classList.add('gd-zero'); }
+      } else {
+        td.textContent = (val!=null ? val : '');
+      }
+      tr.appendChild(td);
+    });
+    els.tbody.appendChild(tr);
+  });
+
+  handlePPG(seasonKey);
+  markStrongColumns();
+  rebuildLegend();
+
+  // inform parent for autosize
+  try{
+    const h = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
+    parent.postMessage({ type:'NL_TABLES_HEIGHT', height:h }, '*');
+  }catch{}
+}
+
+/* ---------- Boot ---------- */
+(async function boot(){
+  clearErr();
+  const loading=document.createElement('option'); loading.textContent='Loading…'; loading.disabled=true; loading.selected=true; els.seasonSel.appendChild(loading);
+
+  try{
+    const res=await fetch(JSON_URL + (JSON_URL.includes('?')?'&':'?') + 'v=' + Date.now(), { cache:'no-store', credentials:'omit' });
+    if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+    const text=await res.text();
+
+    let raw=null;
+    try{ raw=JSON.parse(text); }
+    catch(parseErr){
+      const s=text.indexOf('{'), e=text.lastIndexOf('}');
+      if (s>=0 && e>s){ try{ raw=JSON.parse(text.slice(s,e+1)); } catch(e2){ return showErr('Fetched file was not valid JSON', parseErr.message); } }
+      else return showErr('Fetched file was not JSON (likely an HTML page).','Use the RAW URL, not blob/blame.');
+    }
+
+    const items=normalize(raw);
+    if (!items.length){
+      const keys = raw && typeof raw==='object' ? Object.keys(raw).slice(0,8).join(', ') : 'none';
+      return showErr('No seasons found after normalizing the JSON.','Top-level keys: '+keys);
+    }
+
+    buildIndex(items);
+    populateSeasons();
+
+    // Default to earliest season (e.g., 1979-80)
+    const initial=state.seasons[0].season;
+    els.seasonSel.value=initial;
+    renderTable(initial,null);
+    els.seasonSel.addEventListener('change',()=>renderTable(els.seasonSel.value,null));
+  }catch(err){
+    showErr('Network/CORS error while fetching JSON', err.message);
+  }
+})();
+
+/* Recompute height on resize for parent page */
+addEventListener('resize', ()=>{
+  try{
+    const h = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
+    parent.postMessage({ type:'NL_TABLES_HEIGHT', height:h }, '*');
+  }catch{}
+});
+</script>
+</body>
+</html>
