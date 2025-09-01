@@ -303,6 +303,8 @@
       "divisions": {
         "National": {
           "title": "Alliance Premier League 1980-81",
+          "note": "Champions Altrincham applied for election to the Football League, but failed to secure enough votes (Tranmere Rovers  48, Hereford United 46, York City 46, Halifax Town 41, Altrincham 15).",
+
           "rows": [
             {
               "pos": 1,
@@ -566,6 +568,7 @@
       "divisions": {
         "National": {
           "title": "Alliance Premier League 1981-82",
+          "note": "Champions Telford United applied for election to the Football League, but failed to secure enough votes (Northamppton Town 53, Crewe Alexandra 50, Rochdale 48, Scunthorpe United 48, Telford United 13).",
           "rows": [
             {
               "pos": 1,
@@ -853,6 +856,7 @@
       "divisions": {
         "National": {
           "title": "Alliance Premier League 1982-83",
+          "note": "Champions Maidstone United applied for election to the Football League, but failed to secure enough votes (Blackpool 52, Crewe Alexandra 49, Hereford United 49, Hartlepool United 36, Maidstone United 26).",
           "rows": [
             {
               "pos": 1,
@@ -1137,6 +1141,7 @@
       "divisions": {
         "National": {
           "title": "Alliance Premier League 1983-84",
+          "note": "Champions Maidstone United applied for election to the Football League, but failed to secure enough votes (Chester City 52, Halifax Town 52, Rochdale 50, Hartlepool United 32, Maidstone United 22).",
           "rows": [
             {
               "pos": 1,
@@ -1421,6 +1426,7 @@
       "divisions": {
         "National": {
           "title": "Alliance Premier League 1984-85",
+          "note": "Champions Bath City applied for election to the Football League, but failed to secure enough votes (Northampton Town 52, Stockport County 50, Torquay United 50, Halifax Town 48, Bath City 8).\n*Gateshead deducted 1 point.",
           "rows": [
             {
               "pos": 1,
@@ -1678,7 +1684,7 @@
               "GF": 51,
               "GA": 82,
               "GD": -31,
-              "Pts": 33,
+              "Pts": 33*,
               "classes": [
                 "relegated"
               ]
