@@ -7049,7 +7049,7 @@
               "GD": -2,
               "Pts": 55,
               "classes": [
-                "relegated"
+                "expunged"
               ]
             },
             {
@@ -7185,6 +7185,7 @@
       "divisions": {
         "National": {
           "title": "Football Conference National 2004-05",
+          "note": "Northwich Victoria demoted to Football Conference North due to failure to meet Football Conference ground requirements.\nNorthwich Victoria deducted 10 points due to entering administration.\nTamworth deducted 3 points.",
           "rows": [
             {
               "pos": 1,
@@ -8069,6 +8070,7 @@
       "divisions": {
         "National": {
           "title": "Football Conference National 2005-06",
+          "note": "Canvey Island voluntarily resigned to the Isthmian League Division One North.\nScarborough demoted to the Football Conference North due to failure to fulfil Football Conference financial guidelines.n\Altrincham deducted 18 points.",
           "rows": [
             {
               "pos": 1,
@@ -8941,6 +8943,7 @@
       "divisions": {
         "National": {
           "title": "Football Conference National 2006-07",
+          "note": "Crawley Town deducted 10 points.",
           "rows": [
             {
               "pos": 1,
