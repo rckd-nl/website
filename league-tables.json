@@ -2592,6 +2592,7 @@
               "GA": 46,
               "GD": 46,
               "Pts": 84,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -2879,6 +2880,7 @@
               "GA": 25,
               "GD": 51,
               "Pts": 87,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -3166,6 +3168,7 @@
               "GA": 52,
               "GD": 51,
               "Pts": 87,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -3451,6 +3454,7 @@
               "GA": 40,
               "GD": 58,
               "Pts": 94,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -3736,6 +3740,7 @@
               "GA": 37,
               "GD": 47,
               "Pts": 83,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -4878,6 +4883,7 @@
               "GA": 30,
               "GD": 50,
               "Pts": 90,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -5166,6 +5172,7 @@
               "GA": 43,
               "GD": 31,
               "Pts": 87,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -5454,6 +5461,7 @@
               "GA": 36,
               "GD": 35,
               "Pts": 80,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -5741,6 +5749,7 @@
               "GA": 40,
               "GD": 35,
               "Pts": 85,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -6028,6 +6037,7 @@
               "GA": 36,
               "GD": 42,
               "Pts": 86,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -6316,6 +6326,7 @@
               "GA": 42,
               "GD": 42,
               "Pts": 84,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -6603,6 +6614,7 @@
               "GA": 37,
               "GD": 63,
               "Pts": 95,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -6903,6 +6915,7 @@
               "GA": 34,
               "GD": 51,
               "Pts": 92,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -7200,6 +7213,7 @@
               "GA": 44,
               "GD": 46,
               "Pts": 86,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -7495,6 +7509,7 @@
               "GA": 45,
               "GD": 38,
               "Pts": 84,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -7790,6 +7805,7 @@
               "GA": 31,
               "GD": 87,
               "Pts": 98,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -8087,6 +8103,7 @@
               "GA": 45,
               "GD": 31,
               "Pts": 91,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -8379,6 +8396,7 @@
               "GA": 49,
               "GD": 48,
               "Pts": 92,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -8668,6 +8686,7 @@
               "GA": 34,
               "GD": 46,
               "Pts": 90,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -8962,6 +8981,7 @@
               "GA": 48,
               "GD": 45,
               "Pts": 95,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -9281,6 +9301,7 @@
               "GA": 55,
               "GD": 30,
               "Pts": 78,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -9575,6 +9596,7 @@
               "GA": 44,
               "GD": 41,
               "Pts": 94,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -9872,6 +9894,7 @@
               "GA": 48,
               "GD": 34,
               "Pts": 101,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -10194,6 +10217,7 @@
               "GA": 34,
               "GD": 59,
               "Pts": 97,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -10489,6 +10513,7 @@
               "GA": 39,
               "GD": 42,
               "Pts": 89,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -10786,6 +10811,7 @@
               "GA": 52,
               "GD": 29,
               "Pts": 88,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -11108,6 +11134,7 @@
               "GA": 41,
               "GD": 29,
               "Pts": 85,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -11403,6 +11430,7 @@
               "GA": 36,
               "GD": 50,
               "Pts": 88,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -11703,6 +11731,7 @@
               "GA": 24,
               "GD": 55,
               "Pts": 99,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -12025,6 +12054,7 @@
               "GA": 45,
               "GD": 46,
               "Pts": 86,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -12316,6 +12346,7 @@
               "GA": 26,
               "GD": 67,
               "Pts": 103,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -12610,6 +12641,7 @@
               "GA": 30,
               "GD": 63,
               "Pts": 105,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -12932,6 +12964,7 @@
               "GA": 33,
               "GD": 64,
               "Pts": 92,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -13227,6 +13260,7 @@
               "GA": 33,
               "GD": 45,
               "Pts": 89,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -13524,6 +13558,7 @@
               "GA": 48,
               "GD": 54,
               "Pts": 103,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -13846,6 +13881,7 @@
               "GA": 36,
               "GD": 54,
               "Pts": 90,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -14138,6 +14174,7 @@
               "GA": 41,
               "GD": 51,
               "Pts": 97,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -14434,6 +14471,7 @@
               "GA": 52,
               "GD": 40,
               "Pts": 95,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -14756,6 +14794,7 @@
               "GA": 32,
               "GD": 71,
               "Pts": 107,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -15051,6 +15090,7 @@
               "GA": 44,
               "GD": 46,
               "Pts": 86,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -15351,6 +15391,7 @@
               "GA": 35,
               "GD": 67,
               "Pts": 101,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -15670,6 +15711,7 @@
               "GA": 53,
               "GD": 29,
               "Pts": 85,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -15964,6 +16006,7 @@
               "GA": 40,
               "GD": 31,
               "Pts": 86,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -16261,6 +16304,7 @@
               "GA": 46,
               "GD": 48,
               "Pts": 92,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -16582,6 +16626,7 @@
               "GA": 43,
               "GD": 38,
               "Pts": 87,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -16876,6 +16921,7 @@
               "GA": 46,
               "GD": 33,
               "Pts": 77,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -17160,6 +17206,7 @@
               "GA": 30,
               "GD": 57,
               "Pts": 101,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -17482,6 +17529,7 @@
               "GA": 48,
               "GD": 36,
               "Pts": 85,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -17776,6 +17824,7 @@
               "GA": 32,
               "GD": 51,
               "Pts": 90,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -18075,6 +18124,7 @@
               "GA": 40,
               "GD": 43,
               "Pts": 99,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -18396,6 +18446,7 @@
               "GA": 60,
               "GD": 49,
               "Pts": 88,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -18690,6 +18741,7 @@
               "GA": 29,
               "GD": 64,
               "Pts": 98,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -18989,6 +19041,7 @@
               "GA": 46,
               "GD": 21,
               "Pts": 92,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -19316,6 +19369,7 @@
               "GA": 45,
               "GD": 35,
               "Pts": 91,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -19617,6 +19671,7 @@
               "GA": 30,
               "GD": 40,
               "Pts": 86,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -19923,6 +19978,7 @@
               "GA": 35,
               "GD": 38,
               "Pts": 89,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -20250,6 +20306,7 @@
               "GA": 36,
               "GD": 41,
               "Pts": 82,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -20551,6 +20608,7 @@
               "GA": 41,
               "GD": 52,
               "Pts": 88,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -20854,6 +20912,7 @@
               "GD": 29,
               "Pts": 70,
               "ppg": 1.89,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -21202,6 +21261,7 @@
               "GD": 24,
               "Pts": 64,
               "ppg": 2,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -21515,6 +21575,7 @@
               "GD": 34,
               "Pts": 70,
               "ppg": 2.12,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -21833,6 +21894,7 @@
               "GA": 36,
               "GD": 36,
               "Pts": 84,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -22154,6 +22216,7 @@
               "GA": 22,
               "GD": 14,
               "Pts": 35,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -22427,6 +22490,7 @@
               "GA": 17,
               "GD": 23,
               "Pts": 39,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -22694,6 +22758,7 @@
               "GA": 38,
               "GD": 49,
               "Pts": 94,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -23006,6 +23071,7 @@
               "GA": 47,
               "GD": 52,
               "Pts": 94,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -23300,6 +23366,7 @@
               "GA": 38,
               "GD": 42,
               "Pts": 87,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -23588,6 +23655,7 @@
               "GA": 43,
               "GD": 73,
               "Pts": 111,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -23915,6 +23983,7 @@
               "GA": 44,
               "GD": 36,
               "Pts": 95,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -24243,6 +24312,7 @@
               "GA": 47,
               "GD": 63,
               "Pts": 103,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -24576,6 +24646,7 @@
               "GA": 65,
               "GD": 41,
               "Pts": 98,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -24900,6 +24971,7 @@
               "GA": 29,
               "GD": 45,
               "Pts": 96,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -25228,6 +25300,7 @@
               "GA": 45,
               "GD": 36,
               "Pts": 95,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -25560,6 +25633,7 @@
               "GA": 38,
               "GD": 59,
               "Pts": 102,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -25887,6 +25961,7 @@
               "GA": 42,
               "GD": 33,
               "Pts": 92,
+              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -26202,7 +26277,6 @@
         },
         "South": {
           "title": "National League South 2024-25",
-          "note": "Newport County were expelled from the Football Conference on 27 February 1989, with their record (P29 W4 D7 L18 GF31 GA62 Pts19) being expunged.\nAdditional context line 2.\nAdditional context line 3.",
           "rows": [
             {
               "pos": 1,
@@ -26215,6 +26289,7 @@
               "GA": 42,
               "GD": 33,
               "Pts": 89,
+              "move": "up",
               "classes": [
                 "champion"
               ]
