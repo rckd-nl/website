@@ -7480,6 +7480,7 @@
         },
         "North": {
           "title": "Football Conference North 2004-05",
+          "note": "Redditch United deducted 3 points.\nWorksop Town deducted 10 points.",
           "rows": [
             {
               "pos": 1,
@@ -7774,6 +7775,7 @@
         },
         "South": {
           "title": "Football Conference South 2004-05",
+          "note": "Hornchurch deducted 10 points.\nMargate deducted 10 points.\nRedbridge deducted 3 points.",
           "rows": [
             {
               "pos": 1,
@@ -8362,6 +8364,7 @@
         },
         "North": {
           "title": "Football Conference North 2005-06",
+          "note": "Leigh RMI deducted 1 point.",
           "rows": [
             {
               "pos": 1,
@@ -8650,6 +8653,7 @@
         },
         "South": {
           "title": "Football Conference South 2005-06",
+          "note": "Weymouth deducted 1 point.\nHavant & Waterlooville deducted 3 points.\nCambridge City deducted 3 points.\nMaidenhead United deducted 2 points.",
           "rows": [
             {
               "pos": 1,
@@ -9262,6 +9266,7 @@
         },
         "North": {
           "title": "Football Conference North 2006-07",
+          "note": "Moor Green merged with Solihull Borough at the conclusion of the season and competed from 2007-08 as Solihull Moors.\nScarborough deducted 10 points.\nLancaster City deducted 10 points.\nScarborough folded upon the conclusion of the season.",
           "rows": [
             {
               "pos": 1,
@@ -9518,7 +9523,7 @@
               "GD": 5,
               "Pts": 45,
               "classes": [
-                "relegated"
+                "expunged"
               ]
             },
             {
