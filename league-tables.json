@@ -289,6 +289,7 @@
               "GA": 69,
               "GD": -43,
               "Pts": 18,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -524,6 +525,7 @@
               "GA": 65,
               "GD": -16,
               "Pts": 29,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -539,6 +541,7 @@
               "GA": 56,
               "GD": -19,
               "Pts": 29,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -554,6 +557,7 @@
               "GA": 68,
               "GD": -33,
               "Pts": 24,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -812,6 +816,7 @@
               "GA": 69,
               "GD": -18,
               "Pts": 40,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -827,6 +832,7 @@
               "GA": 69,
               "GD": -22,
               "Pts": 39,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -842,6 +848,7 @@
               "GA": 105,
               "GD": -65,
               "Pts": 22,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -1112,6 +1119,7 @@
               "GA": 74,
               "GD": -28,
               "Pts": 36,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -1127,6 +1135,7 @@
               "GA": 75,
               "GD": -35,
               "Pts": 29,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -1397,6 +1406,7 @@
               "GA": 82,
               "GD": -28,
               "Pts": 29,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -1412,6 +1422,7 @@
               "GA": 87,
               "GD": -54,
               "Pts": 19,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -1670,6 +1681,7 @@
               "GA": 84,
               "GD": -29,
               "Pts": 38,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -1685,6 +1697,7 @@
               "GA": 82,
               "GD": -31,
               "Pts": 33,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -1700,6 +1713,7 @@
               "GA": 87,
               "GD": -43,
               "Pts": 25,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -1958,6 +1972,7 @@
               "GA": 84,
               "GD": -29,
               "Pts": 36,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -1973,6 +1988,7 @@
               "GA": 82,
               "GD": -31,
               "Pts": 26,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -1988,6 +2004,7 @@
               "GA": 86,
               "GD": -45,
               "Pts": 24,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -2223,6 +2240,7 @@
               "GA": 73,
               "GD": -25,
               "Pts": 44,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -2262,6 +2280,7 @@
               "GA": 82,
               "GD": -35,
               "Pts": 32,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -2277,6 +2296,7 @@
               "GA": 95,
               "GD": -47,
               "Pts": 31,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -2535,6 +2555,7 @@
               "GA": 76,
               "GD": -28,
               "Pts": 37,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -2550,6 +2571,7 @@
               "GA": 76,
               "GD": -37,
               "Pts": 32,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -2565,6 +2587,7 @@
               "GA": 104,
               "GD": -67,
               "Pts": 21,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -2824,6 +2847,7 @@
               "GA": 71,
               "GD": -28,
               "Pts": 36,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -2839,6 +2863,7 @@
               "GA": 70,
               "GD": -33,
               "Pts": 31,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -3112,6 +3137,7 @@
               "GA": 67,
               "GD": -25,
               "Pts": 45,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -3127,6 +3153,7 @@
               "GA": 73,
               "GD": -13,
               "Pts": 42,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -3142,6 +3169,7 @@
               "GA": 89,
               "GD": -37,
               "Pts": 36,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -3412,6 +3440,7 @@
               "GA": 82,
               "GD": -20,
               "Pts": 39,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -3427,6 +3456,7 @@
               "GA": 79,
               "GD": -41,
               "Pts": 30,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -3698,6 +3728,7 @@
               "GA": 82,
               "GD": -26,
               "Pts": 43,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -3713,6 +3744,7 @@
               "GA": 72,
               "GD": -20,
               "Pts": 38,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -3984,6 +4016,7 @@
               "GA": 87,
               "GD": -19,
               "Pts": 47,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -3999,6 +4032,7 @@
               "GA": 69,
               "GD": -19,
               "Pts": 40,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -4269,6 +4303,7 @@
               "GA": 58,
               "GD": -14,
               "Pts": 47,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -4284,6 +4319,7 @@
               "GA": 63,
               "GD": -26,
               "Pts": 34,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -4542,6 +4578,7 @@
               "GA": 63,
               "GD": -10,
               "Pts": 44,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -4557,6 +4594,7 @@
               "GA": 79,
               "GD": -26,
               "Pts": 38,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -4572,6 +4610,7 @@
               "GA": 71,
               "GD": -21,
               "Pts": 37,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -4842,6 +4881,7 @@
               "GA": 87,
               "GD": -39,
               "Pts": 35,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -4857,6 +4897,7 @@
               "GA": 73,
               "GD": -30,
               "Pts": 33,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -5115,6 +5156,7 @@
               "GA": 80,
               "GD": -27,
               "Pts": 47,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -5130,6 +5172,7 @@
               "GA": 67,
               "GD": -26,
               "Pts": 41,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -5145,6 +5188,7 @@
               "GA": 73,
               "GD": -24,
               "Pts": 39,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -5260,6 +5304,7 @@
               "GA": 49,
               "GD": 9,
               "Pts": 64,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -5419,6 +5464,7 @@
               "GA": 87,
               "GD": -36,
               "Pts": 35,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -5434,6 +5480,7 @@
               "GA": 93,
               "GD": -45,
               "Pts": 29,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -5681,6 +5728,7 @@
               "GA": 63,
               "GD": -23,
               "Pts": 43,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -5708,6 +5756,7 @@
               "GA": 76,
               "GD": -28,
               "Pts": 32,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -5723,6 +5772,7 @@
               "GA": 89,
               "GD": -48,
               "Pts": 32,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -5981,6 +6031,7 @@
               "GA": 66,
               "GD": -12,
               "Pts": 47,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -5996,6 +6047,7 @@
               "GA": 60,
               "GD": -9,
               "Pts": 46,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -6011,6 +6063,7 @@
               "GA": 75,
               "GD": -36,
               "Pts": 34,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -6269,6 +6322,7 @@
               "GA": 62,
               "GD": -16,
               "Pts": 43,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -6284,6 +6338,7 @@
               "GA": 73,
               "GD": -26,
               "Pts": 34,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -6299,6 +6354,7 @@
               "GA": 86,
               "GD": -40,
               "Pts": 28,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -6558,6 +6614,7 @@
               "GA": 80,
               "GD": -27,
               "Pts": 44,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -6573,6 +6630,7 @@
               "GA": 69,
               "GD": -29,
               "Pts": 43,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -6588,6 +6646,7 @@
               "GA": 65,
               "GD": -24,
               "Pts": 39,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -6858,6 +6917,7 @@
               "GA": 78,
               "GD": -27,
               "Pts": 46,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -6873,6 +6933,7 @@
               "GA": 69,
               "GD": -15,
               "Pts": 45,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -6888,6 +6949,7 @@
               "GA": 73,
               "GD": -36,
               "Pts": 31,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -7114,6 +7176,7 @@
               "GA": 64,
               "GD": -8,
               "Pts": 51,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -7445,6 +7508,7 @@
               "GA": 72,
               "GD": -14,
               "Pts": 42,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -7472,6 +7536,7 @@
               "GA": 89,
               "GD": -54,
               "Pts": 29,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -7487,6 +7552,7 @@
               "GA": 98,
               "GD": -67,
               "Pts": 18,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -7753,6 +7819,7 @@
               "GA": 63,
               "GD": -19,
               "Pts": 42,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -7768,6 +7835,7 @@
               "GA": 79,
               "GD": -33,
               "Pts": 33,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -7783,6 +7851,7 @@
               "GA": 70,
               "GD": -33,
               "Pts": 24,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -8046,6 +8115,7 @@
               "GA": 81,
               "GD": -27,
               "Pts": 46,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -8061,6 +8131,7 @@
               "GA": 75,
               "GD": -21,
               "Pts": 34,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -8076,6 +8147,7 @@
               "GA": 86,
               "GD": -36,
               "Pts": 33,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -8275,6 +8347,7 @@
               "GA": 58,
               "GD": -11,
               "Pts": 51,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -8362,6 +8435,7 @@
               "GA": 66,
               "GD": -26,
               "Pts": 37,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -8664,6 +8738,7 @@
               "GA": 87,
               "GD": -45,
               "Pts": 35,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -8939,6 +9014,7 @@
               "GA": 68,
               "GD": -26,
               "Pts": 40,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -8954,6 +9030,7 @@
               "GA": 99,
               "GD": -50,
               "Pts": 31,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -9249,6 +9326,7 @@
               "GA": 61,
               "GD": -18,
               "Pts": 48,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -9264,6 +9342,7 @@
               "GA": 67,
               "GD": -10,
               "Pts": 47,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -9279,6 +9358,7 @@
               "GA": 89,
               "GD": -32,
               "Pts": 40,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -9560,6 +9640,7 @@
               "GA": 62,
               "GD": -18,
               "Pts": 45,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -9575,6 +9656,7 @@
               "GA": 110,
               "GD": -83,
               "Pts": 1,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -9732,6 +9814,7 @@
               "GA": 52,
               "GD": 7,
               "Pts": 55,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -9867,6 +9950,7 @@
               "GA": 82,
               "GD": -39,
               "Pts": 31,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -10165,6 +10249,7 @@
               "GA": 86,
               "GD": -38,
               "Pts": 39,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -10180,6 +10265,7 @@
               "GA": 99,
               "GD": -57,
               "Pts": 25,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -10195,6 +10281,7 @@
               "GA": 103,
               "GD": -57,
               "Pts": 24,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -10305,6 +10392,7 @@
               "GA": 40,
               "GD": 18,
               "Pts": 71,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -10344,6 +10432,7 @@
               "GA": 57,
               "GD": 8,
               "Pts": 59,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -10491,6 +10580,7 @@
               "GA": 87,
               "GD": -51,
               "Pts": 26,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -10685,6 +10775,7 @@
               "GA": 72,
               "GD": -1,
               "Pts": 52,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -10784,6 +10875,7 @@
               "GA": 86,
               "GD": -54,
               "Pts": 24,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -11067,6 +11159,7 @@
               "GA": 60,
               "GD": -23,
               "Pts": 44,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -11082,6 +11175,7 @@
               "GA": 75,
               "GD": -19,
               "Pts": 43,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -11097,6 +11191,7 @@
               "GA": 86,
               "GD": -41,
               "Pts": 43,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -11112,6 +11207,7 @@
               "GA": 89,
               "GD": -61,
               "Pts": 24,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -11342,6 +11438,7 @@
               "GA": 60,
               "GD": -10,
               "Pts": 48,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -11393,6 +11490,7 @@
               "GA": 80,
               "GD": -37,
               "Pts": 36,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -11408,6 +11506,7 @@
               "GA": 84,
               "GD": -45,
               "Pts": 28,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -11566,6 +11665,7 @@
               "GA": 64,
               "GD": -2,
               "Pts": 55,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -11689,6 +11789,7 @@
               "GA": 68,
               "GD": -35,
               "Pts": 26,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -11705,7 +11806,7 @@
               "GD": -78,
               "Pts": 18,
               "classes": [
-                "relegated"
+                "expunged"
               ]
             }
           ],
@@ -11879,6 +11980,7 @@
               "GA": 63,
               "GD": -5,
               "Pts": 58,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -12002,6 +12104,7 @@
               "GA": 82,
               "GD": -32,
               "Pts": 44,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -12017,6 +12120,7 @@
               "GA": 91,
               "GD": -56,
               "Pts": 26,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -12202,6 +12306,7 @@
               "GA": 55,
               "GD": 7,
               "Pts": 48,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -12614,6 +12719,7 @@
               "GA": 103,
               "GD": -72,
               "Pts": 22,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -12801,6 +12907,7 @@
               "GA": 62,
               "GD": 3,
               "Pts": 57,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -12912,6 +13019,7 @@
               "GA": 87,
               "GD": -40,
               "Pts": 44,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -12927,6 +13035,7 @@
               "GA": 104,
               "GD": -42,
               "Pts": 39,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -12942,6 +13051,7 @@
               "GA": 90,
               "GD": -49,
               "Pts": 28,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -13208,6 +13318,7 @@
               "GA": 78,
               "GD": -39,
               "Pts": 32,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -13223,6 +13334,7 @@
               "GA": 105,
               "GD": -75,
               "Pts": 9,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -13516,6 +13628,7 @@
               "GA": 70,
               "GD": -36,
               "Pts": 36,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -13531,6 +13644,7 @@
               "GA": 75,
               "GD": -36,
               "Pts": 24,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -13814,6 +13928,7 @@
               "GA": 90,
               "GD": -32,
               "Pts": 41,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -13844,6 +13959,7 @@
               "GA": 89,
               "GD": -46,
               "Pts": 31,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -13859,6 +13975,7 @@
               "GA": 100,
               "GD": -60,
               "Pts": 30,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -14137,6 +14254,7 @@
               "GA": 80,
               "GD": -30,
               "Pts": 34,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -14152,6 +14270,7 @@
               "GA": 105,
               "GD": -68,
               "Pts": 20,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -14430,6 +14549,7 @@
               "GA": 69,
               "GD": -16,
               "Pts": 42,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -14445,6 +14565,7 @@
               "GA": 84,
               "GD": -51,
               "Pts": 26,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -14727,6 +14848,7 @@
               "GA": 76,
               "GD": -19,
               "Pts": 50,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -14742,6 +14864,7 @@
               "GA": 83,
               "GD": -38,
               "Pts": 46,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -14757,6 +14880,7 @@
               "GA": 89,
               "GD": -34,
               "Pts": 39,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -14772,6 +14896,7 @@
               "GA": 79,
               "GD": -27,
               "Pts": 35,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -15038,6 +15163,7 @@
               "GA": 92,
               "GD": -26,
               "Pts": 44,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -15053,6 +15179,7 @@
               "GA": 124,
               "GD": -81,
               "Pts": 22,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -15068,6 +15195,7 @@
               "GA": 143,
               "GD": -106,
               "Pts": 7,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -15334,6 +15462,7 @@
               "GA": 64,
               "GD": -17,
               "Pts": 44,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -15349,6 +15478,7 @@
               "GA": 90,
               "GD": -28,
               "Pts": 40,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -15364,6 +15494,7 @@
               "GA": 90,
               "GD": -33,
               "Pts": 25,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -15635,6 +15766,7 @@
               "GA": 63,
               "GD": -19,
               "Pts": 51,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -15674,6 +15806,7 @@
               "GA": 81,
               "GD": -38,
               "Pts": 39,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -15689,6 +15822,7 @@
               "GA": 119,
               "GD": -81,
               "Pts": 10,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -15931,6 +16065,7 @@
               "GA": 74,
               "GD": -31,
               "Pts": 44,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -15970,6 +16105,7 @@
               "GA": 76,
               "GD": -34,
               "Pts": 32,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -15985,6 +16121,7 @@
               "GA": 85,
               "GD": -46,
               "Pts": 28,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -16262,6 +16399,7 @@
               "GA": 77,
               "GD": -34,
               "Pts": 40,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -16277,6 +16415,7 @@
               "GA": 94,
               "GD": -61,
               "Pts": 31,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -16560,6 +16699,7 @@
               "GA": 90,
               "GD": -41,
               "Pts": 45,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -16575,6 +16715,7 @@
               "GA": 74,
               "GD": -30,
               "Pts": 39,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -16590,6 +16731,7 @@
               "GA": 84,
               "GD": -26,
               "Pts": 36,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -16605,6 +16747,7 @@
               "GA": 76,
               "GD": -38,
               "Pts": 36,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -16870,6 +17013,7 @@
               "GA": 82,
               "GD": -23,
               "Pts": 45,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -16885,6 +17029,7 @@
               "GA": 74,
               "GD": -15,
               "Pts": 40,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -16900,6 +17045,7 @@
               "GA": 106,
               "GD": -57,
               "Pts": 21,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -17165,6 +17311,7 @@
               "GA": 101,
               "GD": -59,
               "Pts": 30,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -17180,6 +17327,7 @@
               "GA": 82,
               "GD": -43,
               "Pts": 25,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -17462,6 +17610,7 @@
               "GA": 82,
               "GD": -27,
               "Pts": 48,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -17477,6 +17626,7 @@
               "GA": 73,
               "GD": -25,
               "Pts": 44,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -17492,6 +17642,7 @@
               "GA": 71,
               "GD": -22,
               "Pts": 40,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -17507,6 +17658,7 @@
               "GA": 73,
               "GD": -38,
               "Pts": 35,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -17773,6 +17925,7 @@
               "GA": 69,
               "GD": -21,
               "Pts": 46,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -17788,6 +17941,7 @@
               "GA": 77,
               "GD": -27,
               "Pts": 38,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -17803,6 +17957,7 @@
               "GA": 93,
               "GD": -46,
               "Pts": 32,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -18068,6 +18223,7 @@
               "GA": 75,
               "GD": -23,
               "Pts": 47,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -18083,6 +18239,7 @@
               "GA": 76,
               "GD": -25,
               "Pts": 46,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -18098,6 +18255,7 @@
               "GA": 69,
               "GD": -23,
               "Pts": 38,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -18380,6 +18538,7 @@
               "GA": 70,
               "GD": -15,
               "Pts": 50,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -18395,6 +18554,7 @@
               "GA": 76,
               "GD": -25,
               "Pts": 48,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -18410,6 +18570,7 @@
               "GA": 97,
               "GD": -45,
               "Pts": 39,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -18425,6 +18586,7 @@
               "GA": 82,
               "GD": -50,
               "Pts": 39,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -18690,6 +18852,7 @@
               "GA": 63,
               "GD": -19,
               "Pts": 35,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -18705,6 +18868,7 @@
               "GA": 89,
               "GD": -49,
               "Pts": 29,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -18720,6 +18884,7 @@
               "GA": 91,
               "GD": -52,
               "Pts": 21,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -18985,6 +19150,7 @@
               "GA": 101,
               "GD": -56,
               "Pts": 36,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -19000,6 +19166,7 @@
               "GA": 104,
               "GD": -75,
               "Pts": 27,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -19015,6 +19182,7 @@
               "GA": 81,
               "GD": -55,
               "Pts": 25,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -19303,6 +19471,7 @@
               "GA": 76,
               "GD": -21,
               "Pts": 48,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -19318,6 +19487,7 @@
               "GA": 73,
               "GD": -28,
               "Pts": 42,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -19333,6 +19503,7 @@
               "GA": 79,
               "GD": -37,
               "Pts": 37,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -19348,6 +19519,7 @@
               "GA": 89,
               "GD": -45,
               "Pts": 33,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -19619,6 +19791,7 @@
               "GA": 73,
               "GD": -26,
               "Pts": 46,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -19634,6 +19807,7 @@
               "GA": 77,
               "GD": -22,
               "Pts": 42,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -19649,6 +19823,7 @@
               "GA": 101,
               "GD": -76,
               "Pts": 21,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -19921,6 +20096,7 @@
               "GA": 73,
               "GD": -26,
               "Pts": 42,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -19936,6 +20112,7 @@
               "GA": 89,
               "GD": -38,
               "Pts": 34,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -19951,6 +20128,7 @@
               "GA": 78,
               "GD": -37,
               "Pts": 27,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -20192,6 +20370,7 @@
               "GA": 48,
               "GD": 4,
               "Pts": 57,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -20255,6 +20434,7 @@
               "GA": 84,
               "GD": -22,
               "Pts": 40,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -20270,6 +20450,7 @@
               "GA": 78,
               "GD": -30,
               "Pts": 38,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -20285,6 +20466,7 @@
               "GA": 82,
               "GD": -45,
               "Pts": 34,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -20556,6 +20738,7 @@
               "GA": 86,
               "GD": -43,
               "Pts": 35,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -20571,6 +20754,7 @@
               "GA": 82,
               "GD": -33,
               "Pts": 34,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -20586,6 +20770,7 @@
               "GA": 96,
               "GD": -58,
               "Pts": 19,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -20855,6 +21040,7 @@
               "GA": 87,
               "GD": -24,
               "Pts": 39,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -20870,6 +21056,7 @@
               "GA": 63,
               "GD": -21,
               "Pts": 37,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -20885,6 +21072,7 @@
               "GA": 80,
               "GD": -30,
               "Pts": 35,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -21207,6 +21395,7 @@
               "GD": -21,
               "Pts": 42,
               "ppg": 1.08,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -21223,6 +21412,7 @@
               "GD": -16,
               "Pts": 39,
               "ppg": 1.05,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -21239,6 +21429,7 @@
               "GD": -34,
               "Pts": 26,
               "ppg": 0.68,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -23020,6 +23211,7 @@
               "GA": 79,
               "GD": -32,
               "Pts": 34,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -23035,6 +23227,7 @@
               "GA": 88,
               "GD": -48,
               "Pts": 28,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -23050,6 +23243,7 @@
               "GA": 101,
               "GD": -64,
               "Pts": 1,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -23345,6 +23539,7 @@
               "GA": 69,
               "GD": -38,
               "Pts": 35,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -23628,6 +23823,7 @@
               "GA": 68,
               "GD": -27,
               "Pts": 36,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -23917,6 +24113,7 @@
               "GA": 80,
               "GD": -22,
               "Pts": 48,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -23932,6 +24129,7 @@
               "GA": 60,
               "GD": -25,
               "Pts": 40,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -23947,6 +24145,7 @@
               "GA": 87,
               "GD": -38,
               "Pts": 34,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -23962,6 +24161,7 @@
               "GA": 104,
               "GD": -59,
               "Pts": 25,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -24245,6 +24445,7 @@
               "GA": 63,
               "GD": -22,
               "Pts": 49,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -24260,6 +24461,7 @@
               "GA": 60,
               "GD": -19,
               "Pts": 48,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -24275,6 +24477,7 @@
               "GA": 65,
               "GD": -22,
               "Pts": 46,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -24290,6 +24493,7 @@
               "GA": 76,
               "GD": -41,
               "Pts": 32,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -24574,6 +24778,7 @@
               "GA": 89,
               "GD": -28,
               "Pts": 48,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -24589,6 +24794,7 @@
               "GA": 85,
               "GD": -40,
               "Pts": 44,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -24604,6 +24810,7 @@
               "GA": 74,
               "GD": -26,
               "Pts": 43,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -24619,6 +24826,7 @@
               "GA": 72,
               "GD": -24,
               "Pts": 40,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -24905,6 +25113,7 @@
               "GA": 73,
               "GD": -14,
               "Pts": 52,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -24920,6 +25129,7 @@
               "GA": 59,
               "GD": -19,
               "Pts": 46,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -24935,6 +25145,7 @@
               "GA": 85,
               "GD": -31,
               "Pts": 45,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -24950,6 +25161,7 @@
               "GA": 94,
               "GD": -40,
               "Pts": 33,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -25233,6 +25445,7 @@
               "GA": 82,
               "GD": -16,
               "Pts": 50,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -25248,6 +25461,7 @@
               "GA": 86,
               "GD": -48,
               "Pts": 38,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -25263,6 +25477,7 @@
               "GA": 89,
               "GD": -40,
               "Pts": 36,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -25278,6 +25493,7 @@
               "GA": 112,
               "GD": -77,
               "Pts": 21,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -25562,6 +25778,7 @@
               "GA": 75,
               "GD": -19,
               "Pts": 46,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -25577,6 +25794,7 @@
               "GA": 71,
               "GD": -27,
               "Pts": 46,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -25592,6 +25810,7 @@
               "GA": 92,
               "GD": -40,
               "Pts": 37,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -25607,6 +25826,7 @@
               "GA": 77,
               "GD": -37,
               "Pts": 27,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -25895,6 +26115,7 @@
               "GA": 62,
               "GD": "−1",
               "Pts": 52,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -25910,6 +26131,7 @@
               "GA": 75,
               "GD": "−18",
               "Pts": 52,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -25925,6 +26147,7 @@
               "GA": 85,
               "GD": "−35",
               "Pts": 40,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -25940,6 +26163,7 @@
               "GA": 98,
               "GD": "−60",
               "Pts": 22,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -26223,6 +26447,7 @@
               "GA": 76,
               "GD": "−32",
               "Pts": 39,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -26238,6 +26463,7 @@
               "GA": 98,
               "GD": "−56",
               "Pts": 35,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -26253,6 +26479,7 @@
               "GA": 70,
               "GD": "−36",
               "Pts": 31,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -26268,6 +26495,7 @@
               "GA": 113,
               "GD": "−78",
               "Pts": 26,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -26551,6 +26779,7 @@
               "GA": 64,
               "GD": "−17",
               "Pts": 45,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -26566,6 +26795,7 @@
               "GA": 91,
               "GD": "−44",
               "Pts": 38,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -26581,6 +26811,7 @@
               "GA": 77,
               "GD": "−34",
               "Pts": 33,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
@@ -26596,6 +26827,7 @@
               "GA": 81,
               "GD": "−36",
               "Pts": 32,
+              "move": "down",
               "classes": [
                 "relegated"
               ]
