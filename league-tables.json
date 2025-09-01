@@ -6704,6 +6704,7 @@
               "GA": 47,
               "GD": 26,
               "Pts": 78,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -7008,6 +7009,7 @@
               "GA": 42,
               "GD": 25,
               "Pts": 74,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -7307,6 +7309,7 @@
               "GA": 37,
               "GD": 37,
               "Pts": 73,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -7636,6 +7639,7 @@
               "GA": 46,
               "GD": 20,
               "Pts": 69,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -8191,6 +8195,7 @@
               "GA": 33,
               "GD": 26,
               "Pts": 80,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -8486,6 +8491,7 @@
               "GA": 34,
               "GD": 34,
               "Pts": 85,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -8792,6 +8798,7 @@
               "GA": 41,
               "GD": 24,
               "Pts": 78,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -9089,6 +9096,7 @@
               "GA": 46,
               "GD": 18,
               "Pts": 81,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -9442,6 +9450,7 @@
               "GA": 51,
               "GD": 7,
               "Pts": 68,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -9694,6 +9703,7 @@
               "GA": 37,
               "GD": 28,
               "Pts": 75,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -10024,6 +10034,7 @@
               "GA": 58,
               "GD": 25,
               "Pts": 83,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -10365,6 +10376,7 @@
               "GA": 39,
               "GD": 31,
               "Pts": 76,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -10619,6 +10631,7 @@
               "GA": 38,
               "GD": 45,
               "Pts": 80,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -10949,6 +10962,7 @@
               "GA": 47,
               "GD": 25,
               "Pts": 83,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -11246,6 +11260,7 @@
               "GA": 48,
               "GD": 33,
               "Pts": 80,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -11575,6 +11590,7 @@
               "GA": 43,
               "GD": 31,
               "Pts": 81,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -11863,6 +11879,7 @@
               "GA": 31,
               "GD": 33,
               "Pts": 86,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -12174,6 +12191,7 @@
               "GA": 44,
               "GD": 42,
               "Pts": 85,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -12497,6 +12515,7 @@
               "GA": 46,
               "GD": 20,
               "Pts": 72,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -12763,6 +12782,7 @@
               "GA": 47,
               "GD": 36,
               "Pts": 90,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -13090,6 +13110,7 @@
               "GA": 29,
               "GD": 42,
               "Pts": 82,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -13403,6 +13424,7 @@
               "GA": 51,
               "GD": 24,
               "Pts": 78,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -13718,6 +13740,7 @@
               "GA": 45,
               "GD": 36,
               "Pts": 83,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -14059,6 +14082,7 @@
               "GA": 41,
               "GD": 33,
               "Pts": 72,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -14309,6 +14333,7 @@
               "GA": 40,
               "GD": 49,
               "Pts": 88,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -14623,6 +14648,7 @@
               "GA": 60,
               "GD": 25,
               "Pts": 85,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -14980,6 +15006,7 @@
               "GA": 38,
               "GD": 48,
               "Pts": 75,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -15234,6 +15261,7 @@
               "GA": 47,
               "GD": 33,
               "Pts": 82,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -15538,6 +15566,7 @@
               "GA": 35,
               "GD": 37,
               "Pts": 82,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -15876,6 +15905,7 @@
               "GA": 51,
               "GD": 44,
               "Pts": 81,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -16204,6 +16234,7 @@
               "GA": 38,
               "GD": 25,
               "Pts": 69,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -16459,6 +16490,7 @@
               "GA": 34,
               "GD": 39,
               "Pts": 91,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -16830,6 +16862,7 @@
               "GA": 49,
               "GD": 19,
               "Pts": 70,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -17083,6 +17116,7 @@
               "GA": 44,
               "GD": 35,
               "Pts": 75,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -17400,6 +17434,7 @@
               "GA": 45,
               "GD": 37,
               "Pts": 80,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -17697,6 +17732,7 @@
               "GA": 49,
               "GD": 33,
               "Pts": 76,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -18010,6 +18046,7 @@
               "GA": 40,
               "GD": 15,
               "Pts": 77,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -18313,6 +18350,7 @@
               "GA": 56,
               "GD": 32,
               "Pts": 86,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -18639,6 +18677,7 @@
               "GA": 43,
               "GD": 38,
               "Pts": 80,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -18922,6 +18961,7 @@
               "GA": 30,
               "GD": 66,
               "Pts": 96,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -19225,6 +19265,7 @@
               "GA": 46,
               "GD": 32,
               "Pts": 82,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -19557,6 +19598,7 @@
               "GA": 49,
               "GD": 51,
               "Pts": 85,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -19922,6 +19964,7 @@
               "GA": 55,
               "GD": 18,
               "Pts": 69,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -20187,6 +20230,7 @@
               "GA": 45,
               "GD": 32,
               "Pts": 85,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -20504,6 +20548,7 @@
               "GA": 41,
               "GD": 42,
               "Pts": 81,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -20809,6 +20854,7 @@
               "GA": 49,
               "GD": 27,
               "Pts": 78,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -21117,6 +21163,7 @@
               "GD": 17,
               "Pts": 66,
               "ppg": 1.78,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -21517,6 +21564,7 @@
               "GD": 22,
               "Pts": 57,
               "ppg": 1.73,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -21799,6 +21847,7 @@
               "GD": 25,
               "Pts": 63,
               "ppg": 1.8,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -22131,6 +22180,7 @@
               "GA": 43,
               "GD": 23,
               "Pts": 76,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -23025,6 +23075,7 @@
               "GA": 46,
               "GD": 22,
               "Pts": 77,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -23326,6 +23377,7 @@
               "GA": 50,
               "GD": 8,
               "Pts": 66,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -23577,6 +23629,7 @@
               "GA": 53,
               "GD": 48,
               "Pts": 81,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -23867,6 +23920,7 @@
               "GA": 42,
               "GD": 75,
               "Pts": 107,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -24259,6 +24313,7 @@
               "GA": 42,
               "GD": 7,
               "Pts": 69,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -24547,6 +24602,7 @@
               "GA": 56,
               "GD": 27,
               "Pts": 78,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -24885,6 +24941,7 @@
               "GA": 49,
               "GD": 24,
               "Pts": 81,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -25259,6 +25316,7 @@
               "GA": 46,
               "GD": 22,
               "Pts": 75,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -25577,6 +25635,7 @@
               "GA": 42,
               "GD": 22,
               "Pts": 81,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -25914,6 +25973,7 @@
               "GA": 48,
               "GD": 16,
               "Pts": 73,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -26201,6 +26261,7 @@
               "GA": 30,
               "GD": 46,
               "Pts": 90,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
@@ -26578,6 +26639,7 @@
               "GA": 48,
               "GD": 38,
               "Pts": 86,
+              "move": "up",
               "classes": [
                 "promoted"
               ]
