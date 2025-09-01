@@ -12010,6 +12010,7 @@
         },
         "North": {
           "title": "Football Conference North 2009-10",
+          "note": "Northwich Victoria begun season with 10-point deduction.\nFarsley Celtic begun season with 10-point deduction.\nNorthwich Victoria demoted to Northern Premier League Premier Division due to financial issues.\nFarsley Celtic resigned and folded on 8 March 2010, and record expunged.",
           "rows": [
             {
               "pos": 1,
@@ -12594,7 +12595,7 @@
       "divisions": {
         "National": {
           "title": "Football Conference National 2010-11",
-          "note": "Northwich Victoria begun season with 10-point deduction.\nFarsley Celtic begun season with 10-point deduction.\nNorthwich Victoria demoted to Northern Premier League Premier Division due to financial issues.\nFarsley Celtic resigned and folded on 8 March 2010, and record expunged.",
+          "note": "Kidderminster Harriers deducted 5 points.\nHiston deducted 5 points.\nKettering Town deducted 2 points.\nRushden & Diamonds deducted 5 points.\nRushden & Diamonds folded upon the conclusion of the season.",
           "rows": [
             {
               "pos": 1,
@@ -12916,6 +12917,7 @@
         },
         "North": {
           "title": "Football Conference North 2010-11",
+          "note": "Redditch United deducted 5 points.\nIlkeston Town expelled on 16 September 2010, and record expunged.",
           "rows": [
             {
               "pos": 1,
@@ -13210,6 +13212,7 @@
         },
         "South": {
           "title": "Football Conference South 2010-11",
+          "note": "Welling United deducted 5 points.\nSt Albans City deducted 10 points.",
           "rows": [
             {
               "pos": 1,
@@ -13506,6 +13509,7 @@
       "divisions": {
         "National": {
           "title": "Football Conference National 2011-12",
+          "note": "Darlington deducted 10 points.\nDarlington folded upon the conclusion of the season.",
           "rows": [
             {
               "pos": 1,
@@ -13827,6 +13831,7 @@
         },
         "North": {
           "title": "Football Conference North 2011-12",
+          "note": "Nuneaton Town deducted 6 points.",
           "rows": [
             {
               "pos": 1,
@@ -14118,6 +14123,7 @@
         },
         "South": {
           "title": "Football Conference South 2011-12",
+          "note": "Farnborough deducted 5 points.",
           "rows": [
             {
               "pos": 1,
@@ -14735,6 +14741,7 @@
         },
         "North": {
           "title": "Football Conference North 2012-13",
+          "note": "Solihull Moors deducted 3 points.\nWorkington deducted 4 points.\nHinckley United deducted 6 points.",
           "rows": [
             {
               "pos": 1,
@@ -15029,6 +15036,7 @@
         },
         "South": {
           "title": "Football Conference South 2012-13",
+          "note": "Salisbury City deducted 1 point.\nFarnborough deducted 14 points.\nTruro City deducted 10 points.",
           "rows": [
             {
               "pos": 1,
@@ -15328,6 +15336,7 @@
       "divisions": {
         "National": {
           "title": "Football Conference National 2013-14",
+          "note": "Alfreton Town deducted 3 points.\nSalisbury City folded upon the conclusion of the season.\nAldershot Town deducted 10 points.\nHereford United demoted to Southern League Premier Division due to financial irregularities.",
           "rows": [
             {
               "pos": 1,
@@ -15646,6 +15655,7 @@
         },
         "North": {
           "title": "Football Conference North 2013-14",
+            "note": "Vauxhall Motors voluntarily resigned to the West Cheshire League.\nHarrogate Town deducted 3 points.\nOxford City deducted 3 points.",
           "rows": [
             {
               "pos": 1,
@@ -16236,6 +16246,7 @@
       "divisions": {
         "National": {
           "title": "Football Conference National 2014-15",
+          "note": "Forest Green Rovers deducted 3 points.\nAFC Telford United deducted 3 points.\nNuneaton Town deducted 3 points.",
           "rows": [
             {
               "pos": 1,
@@ -17456,6 +17467,7 @@
         },
         "North": {
           "title": "National League North 2015-16",
+          "note": "Nuneaton Town deducted 3 points.",
           "rows": [
             {
               "pos": 1,
@@ -19590,6 +19602,7 @@
         },
         "South": {
           "title": "National League South 2017-18",
+          "note": "Braintree Town deducted 1 point.",
           "rows": [
             {
               "pos": 1,
@@ -19895,6 +19908,7 @@
       "divisions": {
         "National": {
           "title": "National League 2018-19",
+          "note": "Gateshead deducted 9 points.\nGateshead demoted to National League North due to financial irregularities.\nBraintree Town deducted 3 points.",
           "rows": [
             {
               "pos": 1,
@@ -20522,6 +20536,7 @@
         },
         "South": {
           "title": "National League South 2018-19",
+          "note": "Concord Rangers deducted 3 points.",
           "rows": [
             {
               "pos": 1,
@@ -21803,6 +21818,7 @@
       "divisions": {
         "National": {
           "title": "National League 2020-21",
+          "note": "Dover Athletic expelled on 26 March September 2021, and record expunged.\nMacclesfield Town initially deducted 17 points, and then expelled on 29 September 2020, and record expunged.",
           "rows": [
             {
               "pos": 1,
@@ -22663,6 +22679,7 @@
       "divisions": {
         "National": {
           "title": "National League 2021-22",
+          "note": "Dover Athletic deducted 12 points.",
           "rows": [
             {
               "pos": 1,
@@ -23556,6 +23573,7 @@
       "divisions": {
         "National": {
           "title": "National League 2022-23",
+          "note": "Gateshead deducted 1 point.",
           "rows": [
             {
               "pos": 1,
@@ -24210,6 +24228,7 @@
         },
         "South": {
           "title": "National League South 2022-23",
+          "note": "Welling United deducted 1 point.",
           "rows": [
             {
               "pos": 1,
@@ -24542,6 +24561,7 @@
       "divisions": {
         "National": {
           "title": "National League 2023-24",
+          "note": "Southend United deducted 10 points.",
           "rows": [
             {
               "pos": 1,
@@ -25193,6 +25213,7 @@
         },
         "South": {
           "title": "National League South 2023-24",
+          "note": "Torquay United deducted 11 points.",
           "rows": [
             {
               "pos": 1,
