@@ -1676,7 +1676,7 @@
             },
             {
               "pos": 21,
-              "team": "Gateshead",
+              "team": "Gateshead*",
               "P": 42,
               "W": 9,
               "D": 12,
@@ -1684,7 +1684,7 @@
               "GF": 51,
               "GA": 82,
               "GD": -31,
-              "Pts": 33*,
+              "Pts": 33,
               "classes": [
                 "relegated"
               ]
