@@ -1426,7 +1426,7 @@
       "divisions": {
         "National": {
           "title": "Alliance Premier League 1984-85",
-          "note": "Champions Bath City applied for election to the Football League, but failed to secure enough votes (Northampton Town 52, Stockport County 50, Torquay United 50, Halifax Town 48, Bath City 8).\n*Gateshead deducted 1 point.",
+          "note": "Champions Bath City applied for election to the Football League, but failed to secure enough votes (Northampton Town 52, Stockport County 50, Torquay United 50, Halifax Town 48, Bath City 8).\nGateshead deducted 1 point.",
           "rows": [
             {
               "pos": 1,
@@ -1676,7 +1676,7 @@
             },
             {
               "pos": 21,
-              "team": "Gateshead*",
+              "team": "Gateshead",
               "P": 42,
               "W": 9,
               "D": 12,
@@ -2577,6 +2577,7 @@
       "divisions": {
         "National": {
           "title": "Football Conference 1988-89",
+          "note": "Newport County expelled on 27 February 1989 for failure to fulfil fixtures, and record expunged.",
           "rows": [
             {
               "pos": 1,
@@ -3435,6 +3436,7 @@
       "divisions": {
         "National": {
           "title": "Football Conference 1991-92",
+          "note": "Redbridge Forest merged with Dagenham at the conclusion of the season and competed from 1992-93 as Dagenham & Redbridge.",
           "rows": [
             {
               "pos": 1,
@@ -3719,6 +3721,7 @@
       "divisions": {
         "National": {
           "title": "Football Conference 1992-93",
+          "note": "Dagenham & Redbridge deducted 1 point.",
           "rows": [
             {
               "pos": 1,
@@ -4003,6 +4006,7 @@
       "divisions": {
         "National": {
           "title": "Football Conference 1993-94",
+          "note": "Champions Kidderminster Harriers denied promotion to the FOotball League due to failure to meet ground requirements.\nMerthyr Tydfil deducted 2 points.",
           "rows": [
             {
               "pos": 1,
