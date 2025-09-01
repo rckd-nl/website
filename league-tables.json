@@ -4006,7 +4006,7 @@
       "divisions": {
         "National": {
           "title": "Football Conference 1993-94",
-          "note": "Champions Kidderminster Harriers denied promotion to the FOotball League due to failure to meet ground requirements.\nMerthyr Tydfil deducted 2 points.",
+          "note": "Champions Kidderminster Harriers denied promotion to the Football League due to failure to meet ground requirements.\nMerthyr Tydfil deducted 2 points.",
           "rows": [
             {
               "pos": 1,
@@ -4291,6 +4291,7 @@
       "divisions": {
         "National": {
           "title": "Football Conference 1994-95",
+          "note": "Champions Macclesfield Town denied promotion to the Football League due to failure to meet ground requirements.\nYeovil Town deducted 1 point.",
           "rows": [
             {
               "pos": 1,
@@ -4578,6 +4579,7 @@
       "divisions": {
         "National": {
           "title": "Football Conference 1995-96",
+                    "note": "Champions Stevenage Borough denied promotion to the Football League due to failure to meet ground requirements.",
           "rows": [
             {
               "pos": 1,
@@ -5149,6 +5151,7 @@
       "divisions": {
         "National": {
           "title": "Football Conference 1997-98",
+          "note": "Slough Town demoted to the Isthmian League Premier Division due to failure to meet Football Conference ground requirements.",
           "rows": [
             {
               "pos": 1,
@@ -5436,6 +5439,7 @@
       "divisions": {
         "National": {
           "title": "Football Conference 1998-99",
+          "note": "Barrow demoted to the Northern Premier League Premier Division due to entering administration.",
           "rows": [
             {
               "pos": 1,
@@ -6297,6 +6301,7 @@
       "divisions": {
         "National": {
           "title": "Football Conference 2001-02",
+          "note": "Scarborough deducted 1 point.",
           "rows": [
             {
               "pos": 1,
@@ -6883,6 +6888,7 @@
       "divisions": {
         "National": {
           "title": "Football Conference 2003-04",
+          "note": "Telford United folded upon the conclusion of the season.\nMargate demoted to Football Conference South due to failure to meet Football Conference ground requirements.\nBurton Albion deducted 1 point.",
           "rows": [
             {
               "pos": 1,
