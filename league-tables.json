@@ -22121,7 +22121,7 @@
       "divisions": {
         "National": {
           "title": "National League 2020-21",
-          "note": "Dover Athletic expelled on 26 March September 2021, and record expunged.\nMacclesfield Town initially deducted 17 points, and then expelled on 29 September 2020, and record expunged.",
+          "note": "Dover Athletic expelled on 26 March 2021, and record expunged; due to the curtailment of both the National North and South seasons, there was no relegation from the National League.\nMacclesfield Town initially deducted 17 points, and then expelled on 29 September 2020, and record expunged.",
           "rows": [
             {
               "pos": 1,
@@ -22420,10 +22420,7 @@
               "GF": 0,
               "GA": 0,
               "GD": 0,
-              "Pts": 0,
-              "classes": [
-                "expunged"
-              ]
+              "Pts": 0
             },
             {
               "pos": 24,
@@ -22445,6 +22442,7 @@
         },
         "North": {
           "title": "National League North 2020-21",
+          "note": "Glocuester City crowned champions, but due to the curtailment of the National League North season, there was no promotion to the National League.",
           "rows": [
             {
               "pos": 1,
@@ -22457,7 +22455,6 @@
               "GA": 22,
               "GD": 14,
               "Pts": 35,
-              "move": "up",
               "classes": [
                 "champion"
               ]
@@ -22719,6 +22716,7 @@
         },
         "South": {
           "title": "National League South 2020-21",
+          "note": "Dorking Wanderers crowned champions, but due to the curtailment of the National League North season, there was no promotion to the National League.",
           "rows": [
             {
               "pos": 1,
@@ -22731,7 +22729,6 @@
               "GA": 17,
               "GD": 23,
               "Pts": 39,
-              "move": "up",
               "classes": [
                 "champion"
               ]
