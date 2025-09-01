@@ -9857,6 +9857,7 @@
       "divisions": {
         "National": {
           "title": "Football Conference National 2007-08",
+          "note": "Crawley Town deducted 6 points\nHalifax Town deducted 10 points.\nHalifax Town folded upon the conclusion of the season.",
           "rows": [
             {
               "pos": 1,
@@ -10113,7 +10114,7 @@
               "GD": -9,
               "Pts": 42,
               "classes": [
-                "relegated"
+                "expunged"
               ]
             },
             {
@@ -10178,6 +10179,7 @@
         },
         "North": {
           "title": "Football Conference North 2007-08",
+          "note": "Nuneaton Borough demoted to Southern League Division One Midlands as a result of liquidation and reformed immediately as Nuneaton Town.\nBoston United demoted to Northern Premier League Premier Division for failure to exit administration.",
           "rows": [
             {
               "pos": 1,
@@ -10472,6 +10474,7 @@
         },
         "South": {
           "title": "Football Conference South 2007-08",
+          "note": "Cambridge City demoted to Southern League Premier Division due to failure to meet Football Conference South ground requirements.",
           "rows": [
             {
               "pos": 1,
@@ -10768,6 +10771,7 @@
       "divisions": {
         "National": {
           "title": "Football Conference National 2008-09",
+          "note": "Oxford United deducted 5 points.\nCrawley Town deducted 1 point.\nMansfield Town deducted 4 points.",
           "rows": [
             {
               "pos": 1,
@@ -11089,6 +11093,7 @@
         },
         "North": {
           "title": "Football Conference North 2008-09",
+          "note": "King's Lynn demoted to Northern Premier League Premier Division due to failure to meet Football Conference North ground requirements.\nNorthwich Victoria deducted 10 points due to entering administration.\nTamworth deducted 3 points.",
           "rows": [
             {
               "pos": 1,
@@ -11383,6 +11388,7 @@
         },
         "South": {
           "title": "Football Conference South 2008-09",
+          "note": "Team Bath folded upon the conclusion of the season.\nFisher Athletic folded upon the conclusion of the season.\nBognos Regis Town deducted 7 points.",
           "rows": [
             {
               "pos": 1,
@@ -11682,6 +11688,7 @@
       "divisions": {
         "National": {
           "title": "Football Conference National 2009-10",
+          "note": "Salisbury deducted 10 points.\nSalisbury City demoted to Southern League Premier Division due to failure to exit administration.\nGateshead deducted 1 point.\nGrays Athletic deducted 2 points.\nGrays Athletic declined to join Football Conference South upon relegation and instead joined Isthmian League Division One North.\nChester City initially deducted 25 points, and then expelled on 26 February 2010, and record expunged.",
           "rows": [
             {
               "pos": 1,
@@ -12587,6 +12594,7 @@
       "divisions": {
         "National": {
           "title": "Football Conference National 2010-11",
+          "note": "Northwich Victoria begun season with 10-point deduction.\nFarsley Celtic begun season with 10-point deduction.\nNorthwich Victoria demoted to Northern Premier League Premier Division due to financial issues.\nFarsley Celtic resigned and folded on 8 March 2010, and record expunged.",
           "rows": [
             {
               "pos": 1,
