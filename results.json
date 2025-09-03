@@ -107865,6 +107865,56 @@
               "score": "4-0",
               "result": "H",
               "date": "2005-04-23"
+            },
+            {
+              "home": "Aldershot Town",
+              "away": "Carlisle United",
+              "home_goals": 1,
+              "away_goals": 0,
+              "score": "1-0",
+              "result": "H",
+              "date": "2005-05-02"
+            },
+            {
+              "home": "Stevenage Borough",
+              "away": "Hereford United",
+              "home_goals": 1,
+              "away_goals": 1,
+              "score": "1-1",
+              "result": "D",
+              "date": "2005-05-02"
+            },
+            {
+              "home": "Carlisle United",
+              "away": "Aldershot Town",
+              "home_goals": 2,
+              "away_goals": 1,
+              "score": "2-1",
+              "result": "H",
+              "date": "2005-05-06",
+              "home_goals_aet": 2,
+              "away_goals_aet": 1,
+              "home_pens": 5,
+              "away_pens": 4
+            },
+            {
+              "home": "Hereford United",
+              "away": "Stevenage Borough",
+              "home_goals": 0,
+              "away_goals": 1,
+              "score": "0-1",
+              "result": "A",
+              "date": "2005-05-06"
+            },
+            {
+              "home": "Carlisle United",
+              "away": "Stevenage Borough",
+              "home_goals": 1,
+              "away_goals": 0,
+              "score": "1-0",
+              "result": "H",
+              "date": "2005-05-14",
+              "neutral": true
             }
           ]
         },
@@ -112052,6 +112102,50 @@
               "score": "3-1",
               "result": "H",
               "date": "2005-04-30"
+            },
+            {
+              "home": "Droylsden",
+              "away": "Kettering Town",
+              "home_goals": 1,
+              "away_goals": 2,
+              "score": "1-2",
+              "result": "A",
+              "date": "2005-05-02"
+            },
+            {
+              "home": "Nuneaton Borough",
+              "away": "Altrincham",
+              "home_goals": 1,
+              "away_goals": 1,
+              "score": "1-1",
+              "result": "D",
+              "date": "2005-05-03",
+              "home_goals_aet": 1,
+              "away_goals_aet": 1,
+              "home_pens": 2,
+              "away_pens": 4
+            },
+            {
+              "home": "Kettering Town",
+              "away": "Altrincham",
+              "home_goals": 2,
+              "away_goals": 3,
+              "score": "2-3",
+              "result": "A",
+              "date": "2005-05-07"
+            },
+            {
+              "home": "Altrincham",
+              "away": "Eastbourne Borough",
+              "home_goals": 2,
+              "away_goals": 1,
+              "score": "2-1",
+              "result": "H",
+              "date": "2005-05-15",
+              "neutral": true,	
+              "cross_division": true,
+              "home_division": "Football Conference North 2004-05",
+              "away_division": "Football Conference South 2004-05"
             }
           ]
         },
@@ -116239,6 +116333,24 @@
               "score": "1-0",
               "result": "H",
               "date": "2005-04-30"
+            },
+            {
+              "home": "Thurrock",
+              "away": "Eastbourne Borough",
+              "home_goals": 2,
+              "away_goals": 4,
+              "score": "2-4",
+              "result": "A",
+              "date": "2005-05-03"
+            },
+            {
+              "home": "Cambridge City",
+              "away": "Eastbourne Borough",
+              "home_goals": 0,
+              "away_goals": 3,
+              "score": "0-3",
+              "result": "A",
+              "date": "2005-05-07"
             }
           ]
         }
