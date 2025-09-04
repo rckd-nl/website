@@ -1,0 +1,4448 @@
+{
+  "version": 1,
+  "generated_from": "league-tables (6).json",
+  "founders": {
+    "season": "1979-80",
+    "division": "National",
+    "members": [
+      "AP Leamington",
+      "Altrincham",
+      "Bangor City",
+      "Barnet",
+      "Barrow",
+      "Bath City",
+      "Boston United",
+      "Gravesend & Northfleet",
+      "Kettering Town",
+      "Maidstone United",
+      "Northwich Victoria",
+      "Nuneaton Borough",
+      "Redditch United",
+      "Scarborough",
+      "Stafford Rangers",
+      "Telford United",
+      "Wealdstone",
+      "Weymouth",
+      "Worcester City",
+      "Yeovil Town"
+    ]
+  },
+  "families": [
+    {
+      "id": "afc-fylde",
+      "primary": "AFC Fylde",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "AFC Fylde"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "AFC Fylde"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "afc-telford-united",
+      "primary": "AFC Telford United",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "AFC Telford United"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "AFC Telford United"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "afc-wimbledon",
+      "primary": "AFC Wimbledon",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "AFC Wimbledon"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "AFC Wimbledon"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "accrington-stanley",
+      "primary": "Accrington Stanley",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Accrington Stanley"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Accrington Stanley"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "aldershot-town",
+      "primary": "Aldershot Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Aldershot Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Aldershot Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "alfreton-town",
+      "primary": "Alfreton Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Alfreton Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Alfreton Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "altrincham",
+      "primary": "Altrincham",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Altrincham"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Altrincham"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "ashton-united",
+      "primary": "Ashton United",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Ashton United"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Ashton United"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "aveley",
+      "primary": "Aveley",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Aveley"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Aveley"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "aylesbury-united",
+      "primary": "Aylesbury United",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Aylesbury United"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Aylesbury United"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "banbury-united",
+      "primary": "Banbury United",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Banbury United"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Banbury United"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "bangor-city",
+      "primary": "Bangor City",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Bangor City"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Bangor City"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "barnet",
+      "primary": "Barnet",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Barnet"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Barnet"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "barrow",
+      "primary": "Barrow",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Barrow"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Barrow"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "basingstoke-town",
+      "primary": "Basingstoke Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Basingstoke Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Basingstoke Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "bath-city",
+      "primary": "Bath City",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Bath City"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Bath City"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "bedford-town",
+      "primary": "Bedford Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Bedford Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Bedford Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "billericay-town",
+      "primary": "Billericay Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Billericay Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Billericay Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "bishop-s-stortford",
+      "primary": "Bishop's Stortford",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Bishop's Stortford"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Bishop's Stortford"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "blyth-spartans",
+      "primary": "Blyth Spartans",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Blyth Spartans"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Blyth Spartans"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "bognor-regis-town",
+      "primary": "Bognor Regis Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Bognor Regis Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Bognor Regis Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "boreham-wood",
+      "primary": "Boreham Wood",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Boreham Wood"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Boreham Wood"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "boston-united",
+      "primary": "Boston United",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Boston United"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Boston United"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "brackley-town",
+      "primary": "Brackley Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Brackley Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Brackley Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "bradford-park-avenue",
+      "primary": "Bradford (Park Avenue)",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Bradford (Park Avenue)"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Bradford (Park Avenue)"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "braintree-town",
+      "primary": "Braintree Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Braintree Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Braintree Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "bristol-rovers",
+      "primary": "Bristol Rovers",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Bristol Rovers"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Bristol Rovers"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "bromley",
+      "primary": "Bromley",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Bromley"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Bromley"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "bromsgrove-rovers",
+      "primary": "Bromsgrove Rovers",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Bromsgrove Rovers"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Bromsgrove Rovers"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "burscough",
+      "primary": "Burscough",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Burscough"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Burscough"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "burton-albion",
+      "primary": "Burton Albion",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Burton Albion"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Burton Albion"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "buxton",
+      "primary": "Buxton",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Buxton"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Buxton"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "cambridge-city",
+      "primary": "Cambridge City",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Cambridge City"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Cambridge City"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "cambridge-united",
+      "primary": "Cambridge United",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Cambridge United"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Cambridge United"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "canvey-island",
+      "primary": "Canvey Island",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Canvey Island"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Canvey Island"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "carlisle-united",
+      "primary": "Carlisle United",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Carlisle United"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Carlisle United"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "carshalton-athletic",
+      "primary": "Carshalton Athletic",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Carshalton Athletic"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Carshalton Athletic"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "chelmsford-city",
+      "primary": "Chelmsford City",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Chelmsford City"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Chelmsford City"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "cheltenham-town",
+      "primary": "Cheltenham Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Cheltenham Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Cheltenham Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "chesham-united",
+      "primary": "Chesham United",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Chesham United"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Chesham United"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "cheshunt",
+      "primary": "Cheshunt",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Cheshunt"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Cheshunt"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "chester",
+      "primary": "Chester",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Chester"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Chester"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "chester-city",
+      "primary": "Chester City",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Chester City"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Chester City"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "chesterfield",
+      "primary": "Chesterfield",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Chesterfield"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Chesterfield"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "chippenham-town",
+      "primary": "Chippenham Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Chippenham Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Chippenham Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "chorley",
+      "primary": "Chorley",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Chorley"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Chorley"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "colchester-united",
+      "primary": "Colchester United",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Colchester United"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Colchester United"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "colwyn-bay",
+      "primary": "Colwyn Bay",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Colwyn Bay"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Colwyn Bay"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "concord-rangers",
+      "primary": "Concord Rangers",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Concord Rangers"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Concord Rangers"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "corby-town",
+      "primary": "Corby Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Corby Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Corby Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "crawley-town",
+      "primary": "Crawley Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Crawley Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Crawley Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "curzon-ashton",
+      "primary": "Curzon Ashton",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Curzon Ashton"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Curzon Ashton"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "dagenham",
+      "primary": "Dagenham",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Dagenham"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Dagenham"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "dagenham-redbridge",
+      "primary": "Dagenham & Redbridge",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Dagenham & Redbridge"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Dagenham & Redbridge"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "dartford",
+      "primary": "Dartford",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Dartford"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Dartford"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "doncaster-rovers",
+      "primary": "Doncaster Rovers",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Doncaster Rovers"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Doncaster Rovers"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "dorchester-town",
+      "primary": "Dorchester Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Dorchester Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Dorchester Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "dorking-wanderers",
+      "primary": "Dorking Wanderers",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Dorking Wanderers"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Dorking Wanderers"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "dover-athletic",
+      "primary": "Dover Athletic",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Dover Athletic"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Dover Athletic"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "droylsden",
+      "primary": "Droylsden",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Droylsden"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Droylsden"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "dulwich-hamlet",
+      "primary": "Dulwich Hamlet",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Dulwich Hamlet"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Dulwich Hamlet"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "east-thurrock-united",
+      "primary": "East Thurrock United",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "East Thurrock United"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "East Thurrock United"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "eastbourne-borough",
+      "primary": "Eastbourne Borough",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Eastbourne Borough"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Eastbourne Borough"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "eastleigh",
+      "primary": "Eastleigh",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Eastleigh"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Eastleigh"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "eastwood-town",
+      "primary": "Eastwood Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Eastwood Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Eastwood Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "enfield",
+      "primary": "Enfield",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Enfield"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Enfield"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "enfield-town",
+      "primary": "Enfield Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Enfield Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Enfield Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "exeter-city",
+      "primary": "Exeter City",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Exeter City"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Exeter City"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "fc-halifax-town",
+      "primary": "FC Halifax Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "FC Halifax Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "FC Halifax Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "fc-united-of-manchester",
+      "primary": "FC United of Manchester",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "FC United of Manchester"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "FC United of Manchester"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "farnborough",
+      "primary": "Farnborough",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Farnborough"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Farnborough"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "farnborough-town",
+      "primary": "Farnborough Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Farnborough Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Farnborough Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "farsley-celtic",
+      "primary": "Farsley Celtic",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Farsley Celtic"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Farsley Celtic"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "fisher-athletic",
+      "primary": "Fisher Athletic",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Fisher Athletic"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Fisher Athletic"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "fleetwood-town",
+      "primary": "Fleetwood Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Fleetwood Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Fleetwood Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "forest-green-rovers",
+      "primary": "Forest Green Rovers",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Forest Green Rovers"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Forest Green Rovers"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "frickley-athletic",
+      "primary": "Frickley Athletic",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Frickley Athletic"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Frickley Athletic"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "gainsborough-trinity",
+      "primary": "Gainsborough Trinity",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Gainsborough Trinity"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Gainsborough Trinity"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "gateshead",
+      "primary": "Gateshead",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Gateshead"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Gateshead"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "gloucester-city",
+      "primary": "Gloucester City",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Gloucester City"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Gloucester City"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "gosport-borough",
+      "primary": "Gosport Borough",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Gosport Borough"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Gosport Borough"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "grays-athletic",
+      "primary": "Grays Athletic",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Grays Athletic"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Grays Athletic"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "grimsby-town",
+      "primary": "Grimsby Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Grimsby Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Grimsby Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "guiseley",
+      "primary": "Guiseley",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Guiseley"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Guiseley"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "halifax-town",
+      "primary": "Halifax Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Halifax Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Halifax Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "hampton-richmond-borough",
+      "primary": "Hampton & Richmond Borough",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Hampton & Richmond Borough"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Hampton & Richmond Borough"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "harrogate-town",
+      "primary": "Harrogate Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Harrogate Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Harrogate Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "hartlepool-united",
+      "primary": "Hartlepool United",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Hartlepool United"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Hartlepool United"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "havant-waterlooville",
+      "primary": "Havant & Waterlooville",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Havant & Waterlooville"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Havant & Waterlooville"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "hayes",
+      "primary": "Hayes",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Hayes"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Hayes"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "hayes-yeading-united",
+      "primary": "Hayes & Yeading United",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Hayes & Yeading United"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Hayes & Yeading United"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "hednesford-town",
+      "primary": "Hednesford Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Hednesford Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Hednesford Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "hemel-hempstead-town",
+      "primary": "Hemel Hempstead Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Hemel Hempstead Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Hemel Hempstead Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "hereford",
+      "primary": "Hereford",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Hereford"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Hereford"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "hereford-united",
+      "primary": "Hereford United",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Hereford United"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Hereford United"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "hinckley-united",
+      "primary": "Hinckley United",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Hinckley United"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Hinckley United"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "histon",
+      "primary": "Histon",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Histon"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Histon"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "hornchurch",
+      "primary": "Hornchurch",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Hornchurch"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Hornchurch"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "hucknall-town",
+      "primary": "Hucknall Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Hucknall Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Hucknall Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "hungerford-town",
+      "primary": "Hungerford Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Hungerford Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Hungerford Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "hyde-united",
+      "primary": "Hyde United",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Hyde United"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Hyde United"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "ilkeston-town",
+      "primary": "Ilkeston Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Ilkeston Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Ilkeston Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "kettering-town",
+      "primary": "Kettering Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Kettering Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Kettering Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "kidderminster-harriers",
+      "primary": "Kidderminster Harriers",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Kidderminster Harriers"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Kidderminster Harriers"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "king-s-lynn",
+      "primary": "King's Lynn",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "King's Lynn"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "King's Lynn"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "king-s-lynn-town",
+      "primary": "King's Lynn Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "King's Lynn Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "King's Lynn Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "kingstonian",
+      "primary": "Kingstonian",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Kingstonian"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Kingstonian"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "lancaster-city",
+      "primary": "Lancaster City",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Lancaster City"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Lancaster City"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "leek-town",
+      "primary": "Leek Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Leek Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Leek Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "leigh-rmi",
+      "primary": "Leigh RMI",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Leigh RMI"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Leigh RMI"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "lewes",
+      "primary": "Lewes",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Lewes"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Lewes"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "leyton-orient",
+      "primary": "Leyton Orient",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Leyton Orient"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Leyton Orient"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "lincoln-city",
+      "primary": "Lincoln City",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Lincoln City"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Lincoln City"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "lowestoft-town",
+      "primary": "Lowestoft Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Lowestoft Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Lowestoft Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "luton-town",
+      "primary": "Luton Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Luton Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Luton Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "macclesfield-town",
+      "primary": "Macclesfield Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Macclesfield Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Macclesfield Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "maidenhead-united",
+      "primary": "Maidenhead United",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Maidenhead United"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Maidenhead United"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "maidstone-united",
+      "primary": "Maidstone United",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Maidstone United"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Maidstone United"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "mansfield-town",
+      "primary": "Mansfield Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Mansfield Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Mansfield Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "margate",
+      "primary": "Margate",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Margate"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Margate"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "marine",
+      "primary": "Marine",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Marine"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Marine"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "merthyr-tydfil",
+      "primary": "Merthyr Tydfil",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Merthyr Tydfil"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Merthyr Tydfil"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "moor-green",
+      "primary": "Moor Green",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Moor Green"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Moor Green"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "morecambe",
+      "primary": "Morecambe",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Morecambe"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Morecambe"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "needham-market",
+      "primary": "Needham Market",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Needham Market"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Needham Market"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "newport-county",
+      "primary": "Newport County",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Newport County"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Newport County"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "north-ferriby-united",
+      "primary": "North Ferriby United",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "North Ferriby United"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "North Ferriby United"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "northwich-victoria",
+      "primary": "Northwich Victoria",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Northwich Victoria"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Northwich Victoria"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "notts-county",
+      "primary": "Notts County",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Notts County"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Notts County"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "oldham-athletic",
+      "primary": "Oldham Athletic",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Oldham Athletic"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Oldham Athletic"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "oxford-city",
+      "primary": "Oxford City",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Oxford City"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Oxford City"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "oxford-united",
+      "primary": "Oxford United",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Oxford United"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Oxford United"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "peterborough-sports",
+      "primary": "Peterborough Sports",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Peterborough Sports"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Peterborough Sports"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "poole-town",
+      "primary": "Poole Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Poole Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Poole Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "radcliffe",
+      "primary": "Radcliffe",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Radcliffe"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Radcliffe"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "redbridge",
+      "primary": "Redbridge",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Redbridge"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Redbridge"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "redbridge-forest",
+      "primary": "Redbridge Forest",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Redbridge Forest"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Redbridge Forest"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "redditch-united",
+      "primary": "Redditch United",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Redditch United"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Redditch United"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "rochdale",
+      "primary": "Rochdale",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Rochdale"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Rochdale"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "runcorn",
+      "primary": "Runcorn",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Runcorn"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Runcorn"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "runcorn-fc-halton",
+      "primary": "Runcorn FC Halton",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Runcorn FC Halton"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Runcorn FC Halton"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "rushall-olympic",
+      "primary": "Rushall Olympic",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Rushall Olympic"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Rushall Olympic"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "rushden-diamonds",
+      "primary": "Rushden & Diamonds",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Rushden & Diamonds"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Rushden & Diamonds"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "salford-city",
+      "primary": "Salford City",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Salford City"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Salford City"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "salisbury",
+      "primary": "Salisbury",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Salisbury"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Salisbury"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "salisbury-city",
+      "primary": "Salisbury City",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Salisbury City"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Salisbury City"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "scarborough",
+      "primary": "Scarborough",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Scarborough"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Scarborough"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "scarborough-athletic",
+      "primary": "Scarborough Athletic",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Scarborough Athletic"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Scarborough Athletic"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "scunthorpe-united",
+      "primary": "Scunthorpe United",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Scunthorpe United"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Scunthorpe United"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "shrewsbury-town",
+      "primary": "Shrewsbury Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Shrewsbury Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Shrewsbury Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "slough-town",
+      "primary": "Slough Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Slough Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Slough Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "solihull-moors",
+      "primary": "Solihull Moors",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Solihull Moors"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Solihull Moors"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "south-shields",
+      "primary": "South Shields",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "South Shields"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "South Shields"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "southend-united",
+      "primary": "Southend United",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Southend United"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Southend United"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "southport",
+      "primary": "Southport",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Southport"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Southport"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "spennymoor-town",
+      "primary": "Spennymoor Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Spennymoor Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Spennymoor Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "st-albans-city",
+      "primary": "St Albans City",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "St Albans City"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "St Albans City"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "stafford-rangers",
+      "primary": "Stafford Rangers",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Stafford Rangers"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Stafford Rangers"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "staines-town",
+      "primary": "Staines Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Staines Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Staines Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "stalybridge-celtic",
+      "primary": "Stalybridge Celtic",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Stalybridge Celtic"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Stalybridge Celtic"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "stevenage-borough",
+      "primary": "Stevenage Borough",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Stevenage Borough"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Stevenage Borough"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "stockport-county",
+      "primary": "Stockport County",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Stockport County"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Stockport County"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "sutton-united",
+      "primary": "Sutton United",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Sutton United"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Sutton United"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "tamworth",
+      "primary": "Tamworth",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Tamworth"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Tamworth"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "taunton-town",
+      "primary": "Taunton Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Taunton Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Taunton Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "team-bath",
+      "primary": "Team Bath",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Team Bath"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Team Bath"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "telford-united",
+      "primary": "Telford United",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Telford United"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Telford United"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "thurrock",
+      "primary": "Thurrock",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Thurrock"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Thurrock"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "tonbridge-angels",
+      "primary": "Tonbridge Angels",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Tonbridge Angels"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Tonbridge Angels"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "torquay-united",
+      "primary": "Torquay United",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Torquay United"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Torquay United"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "tranmere-rovers",
+      "primary": "Tranmere Rovers",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Tranmere Rovers"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Tranmere Rovers"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "trowbridge-town",
+      "primary": "Trowbridge Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Trowbridge Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Trowbridge Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "truro-city",
+      "primary": "Truro City",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Truro City"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Truro City"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "vauxhall-motors",
+      "primary": "Vauxhall Motors",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Vauxhall Motors"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Vauxhall Motors"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "warrington-town",
+      "primary": "Warrington Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Warrington Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Warrington Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "wealdstone",
+      "primary": "Wealdstone",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Wealdstone"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Wealdstone"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "welling-united",
+      "primary": "Welling United",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Welling United"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Welling United"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "weston-super-mare",
+      "primary": "Weston-super-Mare",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Weston-super-Mare"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Weston-super-Mare"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "weymouth",
+      "primary": "Weymouth",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Weymouth"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Weymouth"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "whitehawk",
+      "primary": "Whitehawk",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Whitehawk"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Whitehawk"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "witton-albion",
+      "primary": "Witton Albion",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Witton Albion"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Witton Albion"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "woking",
+      "primary": "Woking",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Woking"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Woking"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "worcester-city",
+      "primary": "Worcester City",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Worcester City"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Worcester City"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "workington",
+      "primary": "Workington",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Workington"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Workington"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "worksop-town",
+      "primary": "Worksop Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Worksop Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Worksop Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "worthing",
+      "primary": "Worthing",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Worthing"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Worthing"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "wrexham",
+      "primary": "Wrexham",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Wrexham"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Wrexham"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "wycombe-wanderers",
+      "primary": "Wycombe Wanderers",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Wycombe Wanderers"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Wycombe Wanderers"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "yeading",
+      "primary": "Yeading",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Yeading"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Yeading"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "yeovil-town",
+      "primary": "Yeovil Town",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Yeovil Town"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Yeovil Town"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "york-city",
+      "primary": "York City",
+      "kind": "active",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "York City"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "York City"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "nuneaton-borough-1992",
+      "primary": "Nuneaton Borough",
+      "kind": "discontinued",
+      "alsoKnownAs": [],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Nuneaton Borough",
+            "to": "2007-08"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Nuneaton Borough",
+          "to": "2007-08"
+        }
+      ],
+      "mapNameToPrimary": [],
+      "mapNameToPrimaryBySeason": [],
+      "related": [
+        "nuneaton-town-2008"
+      ]
+    },
+    {
+      "id": "nuneaton-town-2008",
+      "primary": "Nuneaton Town",
+      "kind": "active",
+      "alsoKnownAs": [
+        "Nuneaton Borough (2018–19)"
+      ],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Nuneaton Town",
+            "from": "2010-11"
+          },
+          {
+            "name": "Nuneaton Borough",
+            "from": "2018-19",
+            "to": "2018-19"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Nuneaton Borough",
+          "from": "2018-19",
+          "to": "2018-19"
+        },
+        {
+          "name": "Nuneaton Town",
+          "from": "2010-11"
+        }
+      ],
+      "mapNameToPrimary": [
+        {
+          "name": "Nuneaton Borough",
+          "primary": "Nuneaton Town"
+        }
+      ],
+      "mapNameToPrimaryBySeason": [
+        {
+          "name": "Nuneaton Borough",
+          "from": "2018-19",
+          "to": "2018-19",
+          "primary": "Nuneaton Town"
+        }
+      ],
+      "related": [
+        "nuneaton-borough-1992"
+      ]
+    },
+    {
+      "id": "leamington",
+      "primary": "Leamington",
+      "kind": "active",
+      "alsoKnownAs": [
+        "AP Leamington"
+      ],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "AP Leamington",
+            "to": "1981-82"
+          },
+          {
+            "name": "Leamington",
+            "from": "1982-83"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "AP Leamington",
+          "to": "1981-82"
+        },
+        {
+          "name": "Leamington",
+          "from": "1982-83"
+        }
+      ],
+      "mapNameToPrimary": [
+        {
+          "name": "AP Leamington",
+          "primary": "Leamington"
+        }
+      ],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "darlington",
+      "primary": "Darlington",
+      "kind": "active",
+      "alsoKnownAs": [
+        "Darlington 1883"
+      ],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Darlington"
+          },
+          {
+            "name": "Darlington 1883",
+            "from": "2016-17",
+            "to": "2016-17"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Darlington 1883",
+          "from": "2016-17",
+          "to": "2016-17"
+        }
+      ],
+      "mapNameToPrimary": [
+        {
+          "name": "Darlington 1883",
+          "primary": "Darlington"
+        }
+      ],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    },
+    {
+      "id": "ebbsfleet-united",
+      "primary": "Ebbsfleet United",
+      "kind": "active",
+      "alsoKnownAs": [
+        "Gravesend & Northfleet",
+        "Gravesend and Northfleet"
+      ],
+      "aggregation": {
+        "includeSeasonsByName": [
+          {
+            "name": "Gravesend & Northfleet",
+            "to": "2006-07"
+          },
+          {
+            "name": "Ebbsfleet United",
+            "from": "2007-08"
+          }
+        ]
+      },
+      "displayRules": [
+        {
+          "name": "Gravesend & Northfleet",
+          "to": "2006-07"
+        },
+        {
+          "name": "Ebbsfleet United",
+          "from": "2007-08"
+        }
+      ],
+      "mapNameToPrimary": [
+        {
+          "name": "Gravesend & Northfleet",
+          "primary": "Ebbsfleet United"
+        },
+        {
+          "name": "Gravesend and Northfleet",
+          "primary": "Ebbsfleet United"
+        }
+      ],
+      "mapNameToPrimaryBySeason": [],
+      "related": []
+    }
+  ],
+  "aliases": {
+    "Darlington": [
+      "Darlington 1883"
+    ],
+    "Ebbsfleet United": [
+      "Gravesend & Northfleet",
+      "Gravesend and Northfleet"
+    ],
+    "Leamington": [
+      "AP Leamington"
+    ],
+    "Nuneaton Town": [
+      "Nuneaton Borough (2018–19)"
+    ]
+  },
+  "ui": {
+    "filterPrimaryName": {
+      "AFC Fylde": "AFC Fylde",
+      "AFC Telford United": "AFC Telford United",
+      "AFC Wimbledon": "AFC Wimbledon",
+      "Accrington Stanley": "Accrington Stanley",
+      "Aldershot Town": "Aldershot Town",
+      "Alfreton Town": "Alfreton Town",
+      "Altrincham": "Altrincham",
+      "Ashton United": "Ashton United",
+      "Aveley": "Aveley",
+      "Aylesbury United": "Aylesbury United",
+      "Banbury United": "Banbury United",
+      "Bangor City": "Bangor City",
+      "Barnet": "Barnet",
+      "Barrow": "Barrow",
+      "Basingstoke Town": "Basingstoke Town",
+      "Bath City": "Bath City",
+      "Bedford Town": "Bedford Town",
+      "Billericay Town": "Billericay Town",
+      "Bishop's Stortford": "Bishop's Stortford",
+      "Blyth Spartans": "Blyth Spartans",
+      "Bognor Regis Town": "Bognor Regis Town",
+      "Boreham Wood": "Boreham Wood",
+      "Boston United": "Boston United",
+      "Brackley Town": "Brackley Town",
+      "Bradford (Park Avenue)": "Bradford (Park Avenue)",
+      "Braintree Town": "Braintree Town",
+      "Bristol Rovers": "Bristol Rovers",
+      "Bromley": "Bromley",
+      "Bromsgrove Rovers": "Bromsgrove Rovers",
+      "Burscough": "Burscough",
+      "Burton Albion": "Burton Albion",
+      "Buxton": "Buxton",
+      "Cambridge City": "Cambridge City",
+      "Cambridge United": "Cambridge United",
+      "Canvey Island": "Canvey Island",
+      "Carlisle United": "Carlisle United",
+      "Carshalton Athletic": "Carshalton Athletic",
+      "Chelmsford City": "Chelmsford City",
+      "Cheltenham Town": "Cheltenham Town",
+      "Chesham United": "Chesham United",
+      "Cheshunt": "Cheshunt",
+      "Chester": "Chester",
+      "Chester City": "Chester City",
+      "Chesterfield": "Chesterfield",
+      "Chippenham Town": "Chippenham Town",
+      "Chorley": "Chorley",
+      "Colchester United": "Colchester United",
+      "Colwyn Bay": "Colwyn Bay",
+      "Concord Rangers": "Concord Rangers",
+      "Corby Town": "Corby Town",
+      "Crawley Town": "Crawley Town",
+      "Curzon Ashton": "Curzon Ashton",
+      "Dagenham": "Dagenham",
+      "Dagenham & Redbridge": "Dagenham & Redbridge",
+      "Dartford": "Dartford",
+      "Doncaster Rovers": "Doncaster Rovers",
+      "Dorchester Town": "Dorchester Town",
+      "Dorking Wanderers": "Dorking Wanderers",
+      "Dover Athletic": "Dover Athletic",
+      "Droylsden": "Droylsden",
+      "Dulwich Hamlet": "Dulwich Hamlet",
+      "East Thurrock United": "East Thurrock United",
+      "Eastbourne Borough": "Eastbourne Borough",
+      "Eastleigh": "Eastleigh",
+      "Eastwood Town": "Eastwood Town",
+      "Enfield": "Enfield",
+      "Enfield Town": "Enfield Town",
+      "Exeter City": "Exeter City",
+      "FC Halifax Town": "FC Halifax Town",
+      "FC United of Manchester": "FC United of Manchester",
+      "Farnborough": "Farnborough",
+      "Farnborough Town": "Farnborough Town",
+      "Farsley Celtic": "Farsley Celtic",
+      "Fisher Athletic": "Fisher Athletic",
+      "Fleetwood Town": "Fleetwood Town",
+      "Forest Green Rovers": "Forest Green Rovers",
+      "Frickley Athletic": "Frickley Athletic",
+      "Gainsborough Trinity": "Gainsborough Trinity",
+      "Gateshead": "Gateshead",
+      "Gloucester City": "Gloucester City",
+      "Gosport Borough": "Gosport Borough",
+      "Grays Athletic": "Grays Athletic",
+      "Grimsby Town": "Grimsby Town",
+      "Guiseley": "Guiseley",
+      "Halifax Town": "Halifax Town",
+      "Hampton & Richmond Borough": "Hampton & Richmond Borough",
+      "Harrogate Town": "Harrogate Town",
+      "Hartlepool United": "Hartlepool United",
+      "Havant & Waterlooville": "Havant & Waterlooville",
+      "Hayes": "Hayes",
+      "Hayes & Yeading United": "Hayes & Yeading United",
+      "Hednesford Town": "Hednesford Town",
+      "Hemel Hempstead Town": "Hemel Hempstead Town",
+      "Hereford": "Hereford",
+      "Hereford United": "Hereford United",
+      "Hinckley United": "Hinckley United",
+      "Histon": "Histon",
+      "Hornchurch": "Hornchurch",
+      "Hucknall Town": "Hucknall Town",
+      "Hungerford Town": "Hungerford Town",
+      "Hyde United": "Hyde United",
+      "Ilkeston Town": "Ilkeston Town",
+      "Kettering Town": "Kettering Town",
+      "Kidderminster Harriers": "Kidderminster Harriers",
+      "King's Lynn": "King's Lynn",
+      "King's Lynn Town": "King's Lynn Town",
+      "Kingstonian": "Kingstonian",
+      "Lancaster City": "Lancaster City",
+      "Leek Town": "Leek Town",
+      "Leigh RMI": "Leigh RMI",
+      "Lewes": "Lewes",
+      "Leyton Orient": "Leyton Orient",
+      "Lincoln City": "Lincoln City",
+      "Lowestoft Town": "Lowestoft Town",
+      "Luton Town": "Luton Town",
+      "Macclesfield Town": "Macclesfield Town",
+      "Maidenhead United": "Maidenhead United",
+      "Maidstone United": "Maidstone United",
+      "Mansfield Town": "Mansfield Town",
+      "Margate": "Margate",
+      "Marine": "Marine",
+      "Merthyr Tydfil": "Merthyr Tydfil",
+      "Moor Green": "Moor Green",
+      "Morecambe": "Morecambe",
+      "Needham Market": "Needham Market",
+      "Newport County": "Newport County",
+      "North Ferriby United": "North Ferriby United",
+      "Northwich Victoria": "Northwich Victoria",
+      "Notts County": "Notts County",
+      "Oldham Athletic": "Oldham Athletic",
+      "Oxford City": "Oxford City",
+      "Oxford United": "Oxford United",
+      "Peterborough Sports": "Peterborough Sports",
+      "Poole Town": "Poole Town",
+      "Radcliffe": "Radcliffe",
+      "Redbridge": "Redbridge",
+      "Redbridge Forest": "Redbridge Forest",
+      "Redditch United": "Redditch United",
+      "Rochdale": "Rochdale",
+      "Runcorn": "Runcorn",
+      "Runcorn FC Halton": "Runcorn FC Halton",
+      "Rushall Olympic": "Rushall Olympic",
+      "Rushden & Diamonds": "Rushden & Diamonds",
+      "Salford City": "Salford City",
+      "Salisbury": "Salisbury",
+      "Salisbury City": "Salisbury City",
+      "Scarborough": "Scarborough",
+      "Scarborough Athletic": "Scarborough Athletic",
+      "Scunthorpe United": "Scunthorpe United",
+      "Shrewsbury Town": "Shrewsbury Town",
+      "Slough Town": "Slough Town",
+      "Solihull Moors": "Solihull Moors",
+      "South Shields": "South Shields",
+      "Southend United": "Southend United",
+      "Southport": "Southport",
+      "Spennymoor Town": "Spennymoor Town",
+      "St Albans City": "St Albans City",
+      "Stafford Rangers": "Stafford Rangers",
+      "Staines Town": "Staines Town",
+      "Stalybridge Celtic": "Stalybridge Celtic",
+      "Stevenage Borough": "Stevenage Borough",
+      "Stockport County": "Stockport County",
+      "Sutton United": "Sutton United",
+      "Tamworth": "Tamworth",
+      "Taunton Town": "Taunton Town",
+      "Team Bath": "Team Bath",
+      "Telford United": "Telford United",
+      "Thurrock": "Thurrock",
+      "Tonbridge Angels": "Tonbridge Angels",
+      "Torquay United": "Torquay United",
+      "Tranmere Rovers": "Tranmere Rovers",
+      "Trowbridge Town": "Trowbridge Town",
+      "Truro City": "Truro City",
+      "Vauxhall Motors": "Vauxhall Motors",
+      "Warrington Town": "Warrington Town",
+      "Wealdstone": "Wealdstone",
+      "Welling United": "Welling United",
+      "Weston-super-Mare": "Weston-super-Mare",
+      "Weymouth": "Weymouth",
+      "Whitehawk": "Whitehawk",
+      "Witton Albion": "Witton Albion",
+      "Woking": "Woking",
+      "Worcester City": "Worcester City",
+      "Workington": "Workington",
+      "Worksop Town": "Worksop Town",
+      "Worthing": "Worthing",
+      "Wrexham": "Wrexham",
+      "Wycombe Wanderers": "Wycombe Wanderers",
+      "Yeading": "Yeading",
+      "Yeovil Town": "Yeovil Town",
+      "York City": "York City",
+      "Nuneaton Borough": "Nuneaton Borough",
+      "Nuneaton Town": "Nuneaton Town",
+      "Leamington": "Leamington",
+      "Darlington": "Darlington",
+      "Ebbsfleet United": "Ebbsfleet United"
+    }
+  }
+}
