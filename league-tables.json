@@ -28,8 +28,6 @@
       "Nuneaton Borough": ["Nuneaton Town"],
       "Nuneaton Town": ["Nuneaton Borough"],
       "Redbridge Forest": ["Dagenham & Redbridge"],
-      "Runcorn": ["Runcorn FC Halton"],
-      "Runcorn FC Halton": ["Runcorn"],
       "Salisbury": ["Salisbury City"],
       "Salisbury City": ["Salisbury"],
       "Scarborough": ["Scarborough Athletic"],
@@ -576,7 +574,7 @@
           "rows": [
             {
               "pos": 1,
-              "team": "Runcorn",
+              "team": "Runcorn FC Halton",
               "P": 42,
               "W": 28,
               "D": 9,
@@ -906,7 +904,7 @@
             },
             {
               "pos": 4,
-              "team": "Runcorn",
+              "team": "Runcorn FC Halton",
               "P": 42,
               "W": 22,
               "D": 8,
@@ -1205,7 +1203,7 @@
             },
             {
               "pos": 5,
-              "team": "Runcorn",
+              "team": "Runcorn FC Halton",
               "P": 42,
               "W": 20,
               "D": 13,
@@ -1600,7 +1598,7 @@
             },
             {
               "pos": 14,
-              "team": "Runcorn",
+              "team": "Runcorn FC Halton",
               "P": 42,
               "W": 13,
               "D": 15,
@@ -1795,7 +1793,7 @@
             },
             {
               "pos": 6,
-              "team": "Runcorn",
+              "team": "Runcorn FC Halton",
               "P": 42,
               "W": 19,
               "D": 14,
@@ -2111,7 +2109,7 @@
             },
             {
               "pos": 8,
-              "team": "Runcorn",
+              "team": "Runcorn FC Halton",
               "P": 42,
               "W": 18,
               "D": 13,
@@ -2354,7 +2352,7 @@
             },
             {
               "pos": 4,
-              "team": "Runcorn",
+              "team": "Runcorn FC Halton",
               "P": 42,
               "W": 21,
               "D": 11,
@@ -2670,7 +2668,7 @@
             },
             {
               "pos": 6,
-              "team": "Runcorn",
+              "team": "Runcorn FC Halton",
               "P": 40,
               "W": 19,
               "D": 8,
@@ -2924,7 +2922,7 @@
             },
             {
               "pos": 3,
-              "team": "Runcorn",
+              "team": "Runcorn FC Halton",
               "P": 42,
               "W": 19,
               "D": 13,
@@ -3275,7 +3273,7 @@
             },
             {
               "pos": 8,
-              "team": "Runcorn",
+              "team": "Runcorn FC Halton",
               "P": 42,
               "W": 16,
               "D": 10,
@@ -3659,7 +3657,7 @@
             },
             {
               "pos": 16,
-              "team": "Runcorn",
+              "team": "Runcorn FC Halton",
               "P": 42,
               "W": 11,
               "D": 13,
@@ -3983,7 +3981,7 @@
             },
             {
               "pos": 19,
-              "team": "Runcorn",
+              "team": "Runcorn FC Halton",
               "P": 42,
               "W": 13,
               "D": 10,
@@ -4102,7 +4100,7 @@
             },
             {
               "pos": 5,
-              "team": "Runcorn",
+              "team": "Runcorn FC Halton",
               "P": 42,
               "W": 14,
               "D": 19,
@@ -4437,7 +4435,7 @@
             },
             {
               "pos": 9,
-              "team": "Runcorn",
+              "team": "Runcorn FC Halton",
               "P": 42,
               "W": 16,
               "D": 10,
@@ -4872,7 +4870,7 @@
             },
             {
               "pos": 21,
-              "team": "Runcorn",
+              "team": "Runcorn FC Halton",
               "P": 42,
               "W": 9,
               "D": 8,
