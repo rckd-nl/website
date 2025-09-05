@@ -12,6 +12,7 @@
       { "new": "King's Lynn Town",      "old": "King's Lynn" },
       { "new": "FC Halifax Town",       "old": "Halifax Town" },
       { "new": "Macclesfield",          "old": "Macclesfield Town" },
+      { "new": "Salisbury",             "old": "Salisbury City" },
       { "new": "Scarborough Athletic",  "old": "Scarborough" }
     ],
     "merger": [
