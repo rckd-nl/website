@@ -8648,7 +8648,11 @@
               "GA": 63,
               "GD": 8,
               "Pts": 51,
-              "entity": "Hornchurch"
+              "classes": [
+                "expunged"
+              ],
+
+              "entity": "Hornchurch (original)"
             },
             {
               "pos": 18,
